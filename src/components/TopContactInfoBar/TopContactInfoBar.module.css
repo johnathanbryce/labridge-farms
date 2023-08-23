@@ -15,29 +15,47 @@
     gap: 2rem;
 }
 
-.socials_info{
+.socials_info {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex: 0.2;
 }
 
-.icon, .top_text{
-    font-size: clamp(1.4rem, 2vw, 1.6rem);
+.icon {
+    font-size: 1.6rem;
     cursor: pointer;
 }
 
 .icon_social{
-    font-size: clamp(1.6rem, 2vw, 1.8rem);
+    font-size: 1.8rem;
     cursor: pointer;
 }
 
-.icon_social:hover, .contact_wrapper:hover{
-    color: var(--accentColor);
-    font-weight: bold;
-    transition: var(--hoverTransition);
+.top_text{
+    font-size: clamp(1.4rem, 2vw, 1.6rem);
+    cursor: pointer;
 }
 
 .icon_social:hover{
+    color: var(--accentColor);
+    font-weight: 900;
+    transition: var(--hoverTransition);
     transform: scale(1.1);
 }
+
+/* Mobile Devices (landscape) */
+@media (max-width: 775px) { 
+    .top_contact_bar{
+        padding: 0;
+    }
+    .contact_info{
+        justify-content: center;
+        gap: 10rem;
+    }
+    .socials_info, .top_text{
+        display: none;
+    }
+    
+}
+
