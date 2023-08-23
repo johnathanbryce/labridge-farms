@@ -17,9 +17,11 @@ export default function TopContactInfoBar() {
         <div className={styles.contact_info}>
           <div className={styles.contact_wrapper}>
             <FaLocationDot className={styles.icon} />
-            <a href={googleMapsLink} target="_blank" rel="noopener noreferrer">
-              1230 Black Hole Road, Canning NS
-            </a>
+            <p className={styles.top_text}>
+              <a href={googleMapsLink} target="_blank" rel="noopener noreferrer">
+                1230 Black Hole Road, Canning NS
+              </a>
+            </p>
           </div>
           <div className={styles.contact_wrapper}>
             <BsFillTelephoneFill className={styles.icon} />
