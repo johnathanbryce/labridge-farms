@@ -1,0 +1,43 @@
+.top_contact_bar{
+    display: flex;
+    padding: 1rem;
+}
+
+.contact_info{
+    display: flex;
+    gap: 4rem;
+    flex: 1;
+}
+
+.contact_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.socials_info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 0.2;
+}
+
+.icon, .top_text{
+    font-size: clamp(1.4rem, 2vw, 1.6rem);
+    cursor: pointer;
+}
+
+.icon_social{
+    font-size: clamp(1.6rem, 2vw, 1.8rem);
+    cursor: pointer;
+}
+
+.icon_social:hover, .contact_wrapper:hover{
+    color: var(--accentColor);
+    font-weight: bold;
+    transition: var(--hoverTransition);
+}
+
+.icon_social:hover{
+    transform: scale(1.1);
+}

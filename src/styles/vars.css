@@ -1,0 +1,43 @@
+:root {
+    /* main */
+    --primaryColor: #F9F7F2;
+    --primaryColorLight: '';
+
+    --accentColor: #254117;
+    --accentColorMedium: '';
+    --accentColorLight: '';
+
+    --defaultColor: #F9F7F2;
+
+    /* background */
+    --backgroundColor: #F9F7F2; 
+    --backgroundColorFlip: #333333;
+
+    /* header & footer */
+    --headerBackgroundColor: #F9F7F2;;
+    --footerBackgroundColor: #333333;
+
+    /* typography */
+    --fontColor: #333333;
+    --fontColorFlip: #F9F7F2;;
+
+    /* buttons */
+    --buttonBackgroundColor: #734e38;
+    --buttonBackgroundHoverColor: #e3a857;
+    --buttonBackgroundColorDisabled: lightgrey;
+
+    /* form / inputs */
+
+    /* border styles */
+    --borderRadius: 1rem;
+
+    /* content gap*/
+    --contentGap: 2.2rem;
+
+    /* horizontal lines */
+    --horizontal-line: 0.3rem;
+
+    /* actions */
+    --hoverTransition: 0.3s ease-in-out;
+
+}
