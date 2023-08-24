@@ -1,0 +1,66 @@
+
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.subheader{
+    text-align: center;
+    max-width: 80rem;
+}
+
+.callout_card{
+    display: flex;
+    gap: 8rem;
+    background-color: var(--accentColor);
+    padding: 5rem;
+    flex: 1;
+}
+
+.callout{
+    display: flex;
+    flex-direction: column;
+}
+
+.callout p {
+    color: var(--fontColorFlip);
+}
+
+.callout p:nth-child(1){
+    font-size: clamp(1.9rem, 2vw, 2.7rem);
+    text-align: center;
+    font-weight: 900;
+}
+
+.about_us_container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 75%;
+    gap: 5rem;
+}
+
+.bio_pic{
+    flex: 0.5;
+    max-width: 35rem;
+    object-fit: cover;
+}
+
+.about_us_text_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    flex: 0.8;
+    width: 50%;
+}
+
+/* Mobile Devices (landscape) */
+@media (max-width: 775px) { 
+    .callout_card{
+        width: 100vw;
+    }
+}

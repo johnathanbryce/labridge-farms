@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function LabPage() {
+export default function FarmPage() {
   return (
     <main>page</main>
   )

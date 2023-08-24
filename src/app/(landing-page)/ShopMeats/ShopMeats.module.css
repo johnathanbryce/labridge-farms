@@ -1,0 +1,53 @@
+.shop_meats{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.header_section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 100%;
+}
+
+.product_container{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.product_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 34rem;
+}
+
+.product_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product_title {
+    font-size: clamp(1.6rem, 2vw, 2.2rem);
+    font-weight: bold;
+}
+
+.product_price{
+    font-size: clamp(1.6rem, 2vw, 2rem);
+    font-weight: bold;
+}
+
+.disclaimer {
+    align-self: center;
+    text-align: center;
+    width: 70%;
+}
+
+.bold {
+    font-weight: bold;
+}

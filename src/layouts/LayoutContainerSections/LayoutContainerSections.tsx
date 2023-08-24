@@ -1,12 +1,13 @@
 import React from 'react'
-import styles from './LayoutContainerMain.module.css'
+import styles from './LayoutContainerSections.module.css'
 
 interface LayoutContainerMainProps {
   children: any,
-  bgColor: string,
+  bgColor?: string,
+  title?: string
 }
 
-export default function LayoutContainerMain({children, bgColor}: LayoutContainerMainProps) {
+export default function LayoutContainerSections({children, title, bgColor}: LayoutContainerMainProps) {
   let containerStyle: React.CSSProperties = {};
 
   // Check the bgColor prop and set the corresponding background color
@@ -19,6 +20,9 @@ export default function LayoutContainerMain({children, bgColor}: LayoutContainer
   }
 
   return (
-    <div className={styles.container} style={containerStyle}> {children}</div>
+    <div className={styles.container} style={containerStyle}>
+      {title && <h2 className={bgColor === 'white' ? styles.section_title : styles.section_title_white}>{title}</h2>}
+       {children}
+    </div>
   )
 }
