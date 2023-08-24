@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './layout.module.css'
+/* import styles from './layout.module.css' */
 // Next.js
 import { Metadata } from 'next';
 
@@ -14,7 +14,7 @@ export default function FarmLayout({
   children: React.ReactNode
 }) {
   return (
-    <section className={styles.main_content}>
+    <section /* className={styles.main_content} */>
         {children}
     </section>
   )

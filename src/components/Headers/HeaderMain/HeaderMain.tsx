@@ -32,8 +32,8 @@ export default function HeaderMain() {
       <nav className={styles.navbar}>
         <ul>
             <li className={styles.link}><Link to="about" spy={true} smooth={true} duration={500}  offset={10}> About Us </Link></li>  
-            <li className={styles.link}><Link to="retrievers" spy={true} smooth={true} duration={500} offset={10} > Retrievers </Link></li>
-            <li className={styles.link}><Link to="shop" spy={true} smooth={true} duration={500}  offset={10}> Shop </Link></li>   
+            <li className={styles.link}><Link to="farm" spy={true} smooth={true} duration={500}  offset={10}> Farm </Link></li>   
+            <li className={styles.link}><Link to="kennel" spy={true} smooth={true} duration={500} offset={10} > Kennel </Link></li>
             <li className={styles.link}><Link to="contact" spy={true} smooth={true} duration={500} offset={10} > Contact</Link></li>
         </ul>
       </nav>
@@ -42,8 +42,8 @@ export default function HeaderMain() {
         <nav className={styles.navbar_dropdown}>
         <ul>
             <li className={styles.link}><Link to="about" onClick={onNavItemClickCloseDropdown}spy={true} smooth={true} duration={500} offset={10} > About Us </Link></li> 
-            <li className={styles.link}><Link to="retrievers" onClick={onNavItemClickCloseDropdown} spy={true} smooth={true} duration={500} offset={10} > Retrievers </Link></li>
-            <li className={styles.link}><Link to="shop" onClick={onNavItemClickCloseDropdown} spy={true} smooth={true} duration={500}  offset={10}> Shop </Link></li>  
+            <li className={styles.link}><Link to="kennel" onClick={onNavItemClickCloseDropdown} spy={true} smooth={true} duration={500} offset={10} > Kennel </Link></li>
+            <li className={styles.link}><Link to="farm" onClick={onNavItemClickCloseDropdown} spy={true} smooth={true} duration={500}  offset={10}> Farm </Link></li>  
             <li className={styles.link}><Link to="contact" onClick={onNavItemClickCloseDropdown} spy={true} smooth={true} duration={500} offset={10} > Contact </Link></li>     
         </ul>
       </nav>

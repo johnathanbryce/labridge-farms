@@ -13,5 +13,33 @@
     height: 100%;
     object-fit: cover;
     position: absolute;
-    filter: brightness(0.8)
+    filter: brightness(0.4)
+}
+
+.hero_content {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 45rem;
+    padding: 5rem 0;
+}
+
+.hero_content h6 {
+    color: var(--fontColorFlip);
+}
+
+.buttons_container{
+    display: flex;
+    justify-content: flex-start;
+    gap: 5rem;
+}
+
+/* Mobile Devices (landscape) */
+@media (max-width: 775px) { 
+    .hero_content{
+        text-align: center;
+    }
+    .buttons_container{
+        justify-content: center;
+    }
 }

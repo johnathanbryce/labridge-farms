@@ -1,0 +1,26 @@
+
+.why_choose_grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    gap: 2rem;
+}
+
+.why_choose_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.icon{
+    font-size: 4rem;
+}
+
+.why_choose_wrapper * {
+    color: var(--fontColorFlip);
+}
+
+.why_choose_wrapper p {
+    font-size: clamp(1.8rem, 2vw, 2.2rem);
+}

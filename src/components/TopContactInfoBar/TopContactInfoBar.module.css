@@ -1,6 +1,6 @@
 .top_contact_bar{
     display: flex;
-    padding: 1rem;
+    padding: 1.25rem 12rem;
 }
 
 .contact_info{
@@ -25,11 +25,19 @@
 .icon {
     font-size: 1.6rem;
     cursor: pointer;
+
+}
+
+.link{
+    display: flex;
+    align-items: center;
 }
 
 .icon_social{
-    font-size: 1.8rem;
+    font-size: 2rem;
+    width: 100%;
     cursor: pointer;
+    height: 100%;
 }
 
 .top_text{
