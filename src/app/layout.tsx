@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import { Roboto } from 'next/font/google'
 // Internal Components
 import TopContactInfoBar from '@/components/TopContactInfoBar/TopContactInfoBar'
+import Footer from '@/components/Footer/Footer'
 
 
 const roboto = Roboto({
@@ -28,6 +29,7 @@ export default function RootLayout({
       <body className={roboto.className}>
           <TopContactInfoBar />
           {children}
+          <Footer />
       </body>
     </html>
   )

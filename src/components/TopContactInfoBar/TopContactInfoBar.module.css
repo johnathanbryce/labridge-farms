@@ -55,7 +55,7 @@
 /* Mobile Devices (landscape) */
 @media (max-width: 775px) { 
     .top_contact_bar{
-        padding: 0;
+        padding: 1rem;
     }
     .contact_info{
         justify-content: center;
