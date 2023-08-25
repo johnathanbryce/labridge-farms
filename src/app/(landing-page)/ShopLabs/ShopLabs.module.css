@@ -1,7 +1,8 @@
-.shop_meats{
+.shop_labs{
     display: flex;
     flex-direction: column;
     gap: 4rem;
+    height: auto;
 }
 
 .header_section{
@@ -30,7 +31,7 @@
 
 .product_img{
     max-width: 100%;
-    height: 30rem;
+    height: 35rem;
     display: block;
     object-fit: cover;
     border: 0.2rem solid var(--accentColor);
@@ -57,7 +58,6 @@
 .bold {
     font-weight: bold;
 }
-
 
 /* Tablets (portrait) */
 @media (max-width: 950px) { 

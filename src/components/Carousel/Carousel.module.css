@@ -1,0 +1,14 @@
+.embla {
+    overflow: hidden;
+    border: 1px solid blue;
+    flex: 1;
+  }
+  .embla__container {
+    display: flex;
+    border: 1px solid red;
+  }
+  .embla__slide {
+    flex: 0 0 100%;
+    min-width: 0;
+  }
+  

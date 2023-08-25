@@ -1,0 +1,64 @@
+.testimonials{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.controls_container{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    flex: 0.75;
+}
+
+.arrows_container{
+    display: flex;
+    justify-content: space-between;
+    width: 20rem;
+}
+
+.arrow_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--borderRadius);
+    padding: 2rem;
+    height: 3rem;
+    width: 8rem;
+    background-color: var(--accentColor);
+    cursor: pointer;
+}
+
+.arrow_wrapper:hover{
+    transition: var(--hoverTransition);
+    background-color: var(--buttonBackgroundHoverColor)
+}
+
+.arrow {
+    font-size: 6rem;
+    color: var(--primaryColor);
+}
+
+.embla {
+    overflow: hidden;
+    flex: 0.75;
+}
+
+.embla__container {
+    display: flex;
+    gap: 4rem;
+}
+.embla__slide {
+    flex: 0 0 100%;
+    min-width: 0;
+}
+
+/* Tablets (portrait) */
+@media (max-width: 950px) { 
+    .testimonials{
+        flex-direction: column;
+        gap: 4rem;
+    }
+}
