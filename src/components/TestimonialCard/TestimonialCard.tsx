@@ -16,8 +16,6 @@ export default function TestimonialCard({rating, review, name, companyName}: Tes
         <AiFillStar key={index} className={styles.star} />
     ));
 
-
-    console.log(Array.from({length: 5}))
   return (
     <div className={styles.testimonial_card}>
         <div className={styles.stars_container}>

@@ -1,16 +1,51 @@
-import React from 'react'
+'use client'
+import {useState} from 'react'
 import styles from './ShopMeats.module.css'
-// Next
-import Image from 'next/image'
 // Internal Components
 import LayoutContainerSections from '@/layouts/LayoutContainerSections/LayoutContainerSections'
 import Button from '@/components/Button/Button'
+import ProductModal from '@/components/ProductModal/ProductModal'
+import ProductItem from '@/components/ProductItem/ProductItem'
 // Internal Assets
 import beefPlaceholder from '../../../../public/assets/beefMainPlaceholder.jpg'
 import porkPlaceholder from '../../../../public/assets/porkMainPlaceholder.jpg';
 import groundBeefPlaceholder from '../../../../public/assets/groundBeefPlaceholder.jpg';
 
+const meatProducts = [
+    {
+        image: beefPlaceholder,
+        name: 'Beef',
+        price: '$6.00 / lb',
+        description: 'this is a more detailed description of our beef. Am ipsum dolor sit amet, consec- tetur adipiscing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud '
+    },
+    {
+        image: porkPlaceholder,
+        name: 'Pork',
+        price: '$6.00 / lb',
+        description: 'this is a more detailed description of our pork. Am ipsum dolor sit amet, consec- tetur adipiscing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud '
+    },
+    {
+        image: groundBeefPlaceholder,
+        name: 'Ground Beef',
+        price: '$5.00 / lb',
+        description: 'this is a more detailed description of our ground beef. Am ipsum dolor sit amet, consec- tetur adipiscing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud '
+    }
+]
+
 export default function ShopMeats() {
+    const [selectedProduct, setSelectedProduct] = useState<any>(null);
+    const [isModalOpen, setIsModalOpen] = useState(false)
+
+    const openModal = (product: any) => {
+      setIsModalOpen(true);
+      setSelectedProduct(product);
+    };
+  
+    const closeModal = () => {
+      setIsModalOpen(false);
+      setSelectedProduct(null)
+    };
+
   return (
     <LayoutContainerSections>
         <section className={styles.shop_meats} id="farm">
@@ -20,27 +55,28 @@ export default function ShopMeats() {
         </div>
 
         <div className={styles.product_container}>
-            <div className={styles.product_wrapper}>
-                <Image src={beefPlaceholder} className={styles.product_img} alt="Labridge Farm's beef"  />
-                <figcaption> <span className={styles.product_title}> Beef </span> (grass-fed & pastured raised)   </figcaption>
-                <p> <span className={styles.product_price}> $6.00 / lb </span> dressed weight </p>
-            </div>
-
-            <div className={styles.product_wrapper}>
-                <Image src={groundBeefPlaceholder} className={styles.product_img} alt="Labridge Farm's ground beef"  />
-                <figcaption> <span className={styles.product_title}> Ground Beef </span> (grass-fed & pastured raised)   </figcaption>
-                <p> <span className={styles.product_price}> $6.00 / lb </span> dressed weight </p>
-            </div>
-
-            <div className={styles.product_wrapper}>
-                <Image src={porkPlaceholder} className={styles.product_img} alt="Labridge Farm's pork"  />
-                <figcaption> <span className={styles.product_title}> Pork </span> (grass-fed & pastured raised)   </figcaption>
-                <p> <span className={styles.product_price}> $5.00 / lb </span> dressed weight </p>
-            </div>
+            {meatProducts.map((product, index) => (
+            <ProductItem
+                key={index}
+                product={product}
+                openModal={() => openModal(product)} // selects the product to trigger pop-up modal for that product
+                isMeat={true}
+            />
+            ))}
         </div>
 
         <p className={styles.disclaimer}> <span className={styles.bold}>Labridge Farms promise:</span> all our meat is sourced from pasture-raised, grass-fed animals, reflecting our holistic approach to ethical and sustainable farming.</p>
         </section>
+
+        {/* renders in product pop-up modals, and displays the correct one when openModal(product) is triggered */}
+        {selectedProduct && (
+            <ProductModal
+                name={selectedProduct.name}
+                description={selectedProduct.description}
+                image={selectedProduct.image}
+                onClose={closeModal}
+            />
+        )}
     </LayoutContainerSections>
   )
 }
