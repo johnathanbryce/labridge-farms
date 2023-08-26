@@ -38,6 +38,7 @@
     --horizontal-line: 0.3rem;
 
     /* actions */
+    --hoverColorAlt: #e3a857;
     --hoverTransition: 0.3s ease-in-out;
 
 }

@@ -20,13 +20,13 @@ export default function Footer() {
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
           </p>
           <div className={styles.icons_container}>
-            <a href={googleMapsLink} target="_blank" rel="noopener noreferrer">
+            <a href={googleMapsLink} className={styles.link} target="_blank" rel="noopener noreferrer">
               <FaLocationDot className={styles.icon} />
             </a>
-            <a href="tel:+9025821675">
+            <a href="tel:+9025821675" className={styles.link}>
               <BsFillTelephoneFill className={styles.icon} />
             </a>
-            <a href="mailto:labridgekennels@hotmail.com" target="_blank">
+            <a href="mailto:labridgekennels@hotmail.com" target="_blank" className={styles.link}>
               <MdEmail className={styles.icon}/>
             </a>
           </div>

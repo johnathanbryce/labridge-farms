@@ -18,36 +18,6 @@
     gap: 5rem;
 }
 
-.product_wrapper{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1.25rem;
-    width: 34rem;
-
-}
-
-.product_img{
-    max-width: 100%;
-    height: 30rem;
-    display: block;
-    object-fit: cover;
-    border: 0.2rem solid var(--accentColor);
-    border-radius: var(--borderRadius);
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7); 
-}
-
-.product_title {
-    font-size: clamp(1.6rem, 2vw, 2.2rem);
-    font-weight: bold;
-}
-
-.product_price{
-    font-size: clamp(1.6rem, 2vw, 2rem);
-    font-weight: bold;
-}
-
 .disclaimer {
     align-self: center;
     text-align: center;
