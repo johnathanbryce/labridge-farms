@@ -11,6 +11,7 @@
 
 .product_img{
     max-width: 100%;
+    width: 30rem;
     height: 30rem;
     display: block;
     object-fit: cover;
