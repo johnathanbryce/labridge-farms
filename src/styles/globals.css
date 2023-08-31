@@ -71,7 +71,7 @@ h3 {
 }
 
 h4 {
-  font-size: clamp(2.8rem, 3vw, 3rem);
+  font-size: clamp(3rem, 3vw, 3.5rem);
 }
 
 h5 {

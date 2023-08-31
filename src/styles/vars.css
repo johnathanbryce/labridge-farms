@@ -4,8 +4,8 @@
     --primaryColorLight: '';
 
     --accentColor: #254117;
-    --accentColorMedium: '';
-    --accentColorLight: '';
+    --accentColorMedium: rgba(37, 65, 23, 0.65);
+    --accentColorLight: rgba(37, 65, 23, 0.2);
 
     --defaultColor: #F9F7F2;
 

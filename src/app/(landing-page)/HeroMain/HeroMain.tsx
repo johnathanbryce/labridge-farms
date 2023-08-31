@@ -5,7 +5,7 @@ import Image from 'next/image';
 // Internal Components
 import LayoutContainerSections from '@/layouts/LayoutContainerSections/LayoutContainerSections';
 import HeaderMain from '@/components/Headers/HeaderMain/HeaderMain';
-import Button from '@/components/Button/Button';
+import Button from '@/components/Buttons/Button/Button';
 // Internal Assets
 import heroPageFarmImg from '../../../../public/assets/heroPageMainPlaceholder.png';
 
