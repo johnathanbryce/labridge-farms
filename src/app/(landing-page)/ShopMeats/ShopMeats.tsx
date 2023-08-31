@@ -3,8 +3,8 @@ import {useState} from 'react'
 import styles from './ShopMeats.module.css'
 // Internal Components
 import LayoutContainerSections from '@/layouts/LayoutContainerSections/LayoutContainerSections'
-import Button from '@/components/Button/Button'
-import ProductModal from '@/components/ProductModal/ProductModal'
+import Button from '@/components/Buttons/Button/Button'
+import ProductModal from '@/components/Modals/ProductModal/ProductModal'
 import ProductItem from '@/components/ProductItem/ProductItem'
 // Internal Assets
 import beefPlaceholder from '../../../../public/assets/beefMainPlaceholder.jpg'

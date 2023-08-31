@@ -3,8 +3,8 @@ import React, {useState} from 'react'
 import styles from './ShopLabs.module.css'
 // Internal Components
 import LayoutContainerSections from '@/layouts/LayoutContainerSections/LayoutContainerSections'
-import Button from '@/components/Button/Button'
-import ProductModal from '@/components/ProductModal/ProductModal'
+import Button from '@/components/Buttons/Button/Button'
+import ProductModal from '@/components/Modals/ProductModal/ProductModal'
 import ProductItem from '@/components/ProductItem/ProductItem'
 // Internal Assets
 import Lily2 from '../../../../public/assets/Lily2.jpg'
@@ -48,7 +48,7 @@ export default function ShopLabs() {
 
   return (
     <LayoutContainerSections>
-        <section className={styles.shop_labs} id="farm">
+        <section className={styles.shop_labs} id="kennel">
         <div className={styles.header_section}>
             <h2> Our Labrador Retrievers</h2>
             <Button label="Shop Labradors" isTransparent={false} src="/labs" />

@@ -12,7 +12,7 @@ export default function Contact() {
 
   return (
     <LayoutContainerSections title="Have Questions? Get in Touch" bgColor='green'>
-        <section className={styles.contact}>
+        <section className={styles.contact} id="contact">
             <h6 className={styles.link} > <a href="mailto:labridgekennels@hotmail.com" target="_blank" >labridgekennels@hotmail.com</a> </h6>
             <h6 className={styles.link}> <a href="tel:+9025821675" >(902) 582-1675</a> </h6> 
             <a href={googleMapsLink} className={styles.address_container}target="_blank" rel="noopener noreferrer" >
