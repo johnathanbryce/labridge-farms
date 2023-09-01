@@ -1,0 +1,11 @@
+.embla {
+    overflow: hidden;
+    flex: 1;
+}
+
+.embla__container {
+    display: flex;
+    gap: 0.5rem;
+}
+
+  

@@ -1,0 +1,36 @@
+.lab_overview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    flex: 1;
+    text-align: center;
+}
+
+.content * {
+    color: var(--fontColorFlip);
+}
+
+.icon {
+    color: var(--defaultColor);
+    filter: grayscale(100%);
+    width: 5.25rem;
+    height: 5.25rem;
+}
+
+/* Mobile Devices up to 480px */
+@media (max-width: 480px) {  
+    .icon{
+        width: 2.25rem;
+        height: 2.25rem;
+    }
+}

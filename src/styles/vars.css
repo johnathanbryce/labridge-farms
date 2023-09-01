@@ -12,6 +12,7 @@
     /* background */
     --backgroundColor: #F9F7F2; 
     --backgroundColorFlip: #333333;
+    --backgroundColorDogCard: rgba(115, 78, 56, 0.2);
 
     /* header & footer */
     --headerBackgroundColor: #F9F7F2;;

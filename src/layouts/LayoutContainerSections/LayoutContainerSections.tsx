@@ -17,6 +17,8 @@ export default function LayoutContainerSections({children, title, bgColor}: Layo
     containerStyle.backgroundColor = '#254117';
   } else if (bgColor === 'dark') {
     containerStyle.backgroundColor = '#333333';
+  } else if (bgColor === 'brown') {
+    containerStyle.backgroundColor = '#734e38';
   }
 
   return (

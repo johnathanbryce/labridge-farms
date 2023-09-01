@@ -1,0 +1,80 @@
+
+.dog_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--backgroundColorDogCard);
+    border-radius: var(--borderRadius);
+    position: relative; /* for learn more pop up */
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: var(--borderRadius); 
+    border-top-right-radius: var(--borderRadius); 
+    border-bottom-left-radius: 0; 
+    border-bottom-right-radius: 0;
+
+}
+
+.text_container{
+   text-align: center;
+   padding: 1.5rem;
+
+}
+
+.button_normal{
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    width: 15rem;
+    border: 0.1rem solid white;
+    background-color: var(--buttonBackgroundColor);
+    border-radius: var(--borderRadius);
+    color: var(--primaryColor);
+    z-index: 10;
+}
+
+.button_normal:hover{
+    background-color: var(--buttonBackgroundHoverColor);    
+    transition: var(--hoverTransition);
+    font-weight: bold;
+}
+
+/* Learn More Styles */
+
+.learn_more{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 100%;
+    border-top-left-radius: var(--borderRadius); 
+    border-top-right-radius: var(--borderRadius); 
+    border-bottom-left-radius: 0; 
+    border-bottom-right-radius: 0;
+
+}
+
+.learn_more * {
+    color: var(--fontColorFlip);
+}
+
+.price {
+    font-weight: 900;
+    color: var(--hoverColorAlt);
+}
+
+/* Mobile Devices (landscape) */
+@media (max-width: 775px) {  
+    .button_normal{
+        width: 10rem;
+    }
+}
