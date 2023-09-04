@@ -8,17 +8,17 @@
 
 .litters p {
     text-align: center;
-    color: var(--fontColor);
+    color: var(--fontColorFlip);
     flex: 1;
 }
 
 .grid_container{
     display: grid;
-    grid-template-columns: 1fr 1fr; /* 2 columns with equal width */
+    grid-template-columns: 1fr 1fr; 
     place-items: center;
     gap: 4rem;
     margin-top: 2rem;
-    background-color: var(--accentColor);
+    background-color: var(--defaultColor);
     padding: 2rem;
 }
 
@@ -31,15 +31,17 @@
 
 .content h6 {
     font-size: clamp(1.2rem, 2vw, 1.8rem);
-    color: var(--fontColorFlip);
+    color: var(--fontColor);
     flex: 1;
 }
 
 
 .icon {
-    font-size: clamp(3rem, 2vw, 5rem);
+    /* font-size: clamp(3rem, 2vw, 5rem); */
+    font-size: 5rem;
+    width: 100%;
     flex: 0.2;
-    color: var(--fontColorFlip);
+    color: var(--fontColor);
 }
 
 .disclaimer {
@@ -58,11 +60,33 @@
       gap: 1.5rem;
       height: 16rem;
     }
+
+}
+
+/* Mobile Devices (landscape) */
+@media (max-width: 775px) { 
+    .grid_container{
+        place-items: center;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .content{
+        height: 10rem;
+        text-align: center;
+    }
 }
 
 /* Mobile Devices up to 480px */
 @media (max-width: 480px) {  
     .grid_container{
         gap: 1.5rem;
+    }
+}
+
+/* Tiny Mobile Devices up to 325px (e.g. galaxy fold) */
+@media (max-width: 325px) {  
+    .grid_container{
+        grid-template-columns: 1fr;
     }
 }

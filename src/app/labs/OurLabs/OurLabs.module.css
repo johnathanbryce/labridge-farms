@@ -1,5 +1,8 @@
 .our_labs{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
-    gap: 4rem;
+    
+}
+
+.text{
+    text-align: center;
+    margin-bottom: 1.5rem;
 }

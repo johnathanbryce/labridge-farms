@@ -6,7 +6,6 @@ import LayoutContainerSections from '@/layouts/LayoutContainerSections/LayoutCon
 // Internal Components
 import TestimonialCard from '@/components/TestimonialCard/TestimonialCard'
 // External Libraries 
-import {BsFillArrowLeftSquareFill, BsFillArrowRightSquareFill} from 'react-icons/bs'
 import {FaLongArrowAltLeft, FaLongArrowAltRight} from 'react-icons/fa';
 import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'

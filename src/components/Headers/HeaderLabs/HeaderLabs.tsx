@@ -33,7 +33,7 @@ export default function HeaderLabs() {
         <ul>
             <li className={styles.link}><Link to="labs" spy={true} smooth={true} duration={500}  offset={-100}> Our Labs</Link></li>  
             <li className={styles.link}><Link to="litters" spy={true} smooth={true} duration={500}  offset={-100}> Litters </Link></li>   
-            <li className={styles.link}><Link to="why" spy={true} smooth={true} duration={500} offset={-100} > Why Choose Us </Link></li>
+            <li className={styles.link}><Link to="photos" spy={true} smooth={true} duration={500} offset={-100} > Photo Gallery</Link></li>
             <li className={styles.link}><Link to="contact" spy={true} smooth={true} duration={500} offset={10} > Contact</Link></li>
         </ul>
       </nav>
@@ -43,7 +43,7 @@ export default function HeaderLabs() {
         <ul>
             <li className={styles.link}><Link to="labs" onClick={onNavItemClickCloseDropdown}spy={true} smooth={true} duration={500} offset={10} > Our Labs </Link></li> 
             <li className={styles.link}><Link to="litters" onClick={onNavItemClickCloseDropdown} spy={true} smooth={true} duration={500} offset={10} > Litters </Link></li>
-            <li className={styles.link}><Link to="why" onClick={onNavItemClickCloseDropdown} spy={true} smooth={true} duration={500}  offset={10}> Why Choose Us </Link></li>  
+            <li className={styles.link}><Link to="photos" onClick={onNavItemClickCloseDropdown} spy={true} smooth={true} duration={500}  offset={10}> Photo Gallery </Link></li>  
             <li className={styles.link}><Link to="contact" onClick={onNavItemClickCloseDropdown} spy={true} smooth={true} duration={500} offset={10} > Contact </Link></li>     
         </ul>
       </nav>

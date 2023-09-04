@@ -18,7 +18,7 @@ export default function HeroFarm() {
         <LayoutContainerSections>
         <div className={styles.hero_content}>
           <h1>Welcome to Labridge Farms </h1>
-          <h6> Your one-stop destination for premium farm meats. Lorem ipsum delorum... </h6>
+          <h6> Your one-stop destination for premium farm meats. </h6>
           <div className={styles.buttons_container}>
             <Button label="HOME" isTransparent={true} src="/"/>
             <Button label="OUR LABS" isTransparent={true} src="/labs"/>
