@@ -5,7 +5,7 @@ import LayoutContainerSections from '@/layouts/LayoutContainerSections/LayoutCon
 
 export default function LabsContact() {
   return (
-    <LayoutContainerSections title="Contact Us" bgColor='brown'>
+    <LayoutContainerSections title="" bgColor='brown'>
         <section className={styles.contact} id="contact">
             <p> Whether you have inquiries about our labs or are considering making a purchase, contact us below: </p>
             <h6 className={styles.link} > <a href="mailto:labridgekennels@hotmail.com" target="_blank" >labridgekennels@hotmail.com</a> </h6>

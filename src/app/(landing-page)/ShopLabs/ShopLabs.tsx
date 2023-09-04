@@ -47,10 +47,9 @@ export default function ShopLabs() {
     };
 
   return (
-    <LayoutContainerSections>
+    <LayoutContainerSections title="Our Labrador Retrievers" bgColor='white'>
         <section className={styles.shop_labs} id="kennel">
         <div className={styles.header_section}>
-            <h2> Our Labrador Retrievers</h2>
             <Button label="Shop Labradors" isTransparent={false} src="/labs" />
         </div>
 

@@ -5,7 +5,7 @@ import LayoutContainerSections from '@/layouts/LayoutContainerSections/LayoutCon
 
 export default function FarmContact() {
   return (
-    <LayoutContainerSections title="Contact Us" bgColor='white'>
+    <LayoutContainerSections title="" bgColor='white'>
         <section className={styles.contact} id="contact">
             <p> Do you have questions about our products or want to place an order? Contact us below: </p>
             <h6 className={styles.link} > <a href="mailto:labridgekennels@hotmail.com" target="_blank" >labridgekennels@hotmail.com</a> </h6>

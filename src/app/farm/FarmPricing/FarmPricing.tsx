@@ -12,7 +12,7 @@ import porkPlaceholderImg from '../../../../public/assets/porkMainPlaceholder.jp
 
 export default function FarmPricing() {
   return (
-    <LayoutContainerSections title='Pricing' bgColor='white'>
+    <LayoutContainerSections title='Our Pricing' bgColor='white'>
         <section className={styles.farm_pricing} id="pricing">
             <ButtonOrder label="Place an Order" isTransparent={false} />
             
