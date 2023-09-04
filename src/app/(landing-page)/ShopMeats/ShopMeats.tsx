@@ -47,10 +47,9 @@ export default function ShopMeats() {
     };
 
   return (
-    <LayoutContainerSections>
+    <LayoutContainerSections title="Our Beef & Pork" bgColor='white'>
         <section className={styles.shop_meats} id="farm">
         <div className={styles.header_section}>
-            <h2> Our Beef & Pork</h2>
             <Button label="Shop Our Meat" isTransparent={false} src="/farm" />
         </div>
 

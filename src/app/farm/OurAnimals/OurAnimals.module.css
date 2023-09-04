@@ -20,7 +20,7 @@
     align-items: center;
     justify-content: center;
     gap: 3rem;
-    background-color: var(--accentColorMedium);
+    background-color: var(--accentColor/* Medium */);
 }
 
 .product_content_wrapper p {

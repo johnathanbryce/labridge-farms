@@ -11,7 +11,7 @@ import PhotoGalleryCard from '@/components/Cards/PhotoGalleryCard/PhotoGalleryCa
 export default function LabsPhotoGallery() {
   return (
     <LayoutContainerSections title="Photo Gallery" bgColor='white'>
-        <h6 className={styles.sub_header}> Here are a few snaps of our adorable labs. </h6>
+       {/*  <h6 className={styles.sub_header}> Here are a few snaps of our adorable labs. </h6> */}
         <section className={styles.labs_photo_gallery} id="photos">
             {
                 labsPhotoGalleryList.map((photo) => (

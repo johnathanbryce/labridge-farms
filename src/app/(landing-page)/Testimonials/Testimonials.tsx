@@ -23,7 +23,7 @@ export default function Testimonials() {
 
 
   return (
-    <LayoutContainerSections title='Testimonials' bgColor='white'>
+    <LayoutContainerSections title='' bgColor='white'>
         <section className={styles.testimonials}>
             <div className={styles.controls_container}>
                 <h4> What Our Clients Say: </h4>
