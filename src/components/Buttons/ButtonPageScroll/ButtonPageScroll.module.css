@@ -2,8 +2,8 @@
     padding: 2rem;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
-    min-width: 15rem;
     max-width: 25rem;
+    cursor: pointer;
 }
 
 .button_normal {

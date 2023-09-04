@@ -1,14 +1,51 @@
 .embla {
+
     overflow: hidden;
-    border: 1px solid blue;
     flex: 1;
-  }
-  .embla__container {
-    display: flex;
-    border: 1px solid red;
-  }
-  .embla__slide {
+    width: 100%;
+}
+
+.embla__viewport{
+  /* display: flex; */
+}
+
+.embla__container {
+  display: flex;
+  gap: 5rem;
+}
+
+.arrows_container{
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  padding-bottom: 1.5rem;
+  width: 100%;
+}
+
+.arrow_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--borderRadius);
+  padding: 2rem;
+  height: 3rem;
+  width: 8rem;
+  background-color: var(--accentColor);
+  cursor: pointer;
+}
+
+.arrow_wrapper:hover{
+  transition: var(--hoverTransition);
+  background-color: var(--buttonBackgroundHoverColor)
+}
+
+.arrow {
+  font-size: 6rem;
+  color: var(--primaryColor);
+}
+
+/*   .embla__slide {
     flex: 0 0 100%;
     min-width: 0;
   }
-  
+   */

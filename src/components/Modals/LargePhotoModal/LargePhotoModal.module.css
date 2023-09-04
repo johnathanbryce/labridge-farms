@@ -1,0 +1,70 @@
+.photo_modal{
+    position: fixed;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.modal_background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.modal_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 60vw;
+    height: 90%;
+    padding: 2rem;
+    /* background-color: var(--fontColor); */
+    border-radius: var(--borderRadius);
+    z-index: 10;
+    position: relative; /* for close btn */
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text {
+    width: 100%;
+    background-color: rgba(0,0,0, 0.8);
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.close {
+    position: absolute;
+    top: -0.5rem;
+    right: -0.5rem;
+    font-size: 5rem;
+    z-index: 999;
+    cursor: pointer;
+    color: var(--fontColorFlip);
+}
+
+.close:hover{
+    transition: var(--hoverTransition);
+    color: var(--hoverColorAlt)
+}
+
+/* Mobile Devices (landscape) */
+@media (max-width: 775px) { 
+    .modal_content{
+        width: 100%;
+    }
+}

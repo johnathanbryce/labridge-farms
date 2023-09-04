@@ -1,0 +1,12 @@
+.sub_header{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.labs_photo_gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
+    grid-template-rows: repeat(2, 0.25fr);
+    gap: 0;
+}
