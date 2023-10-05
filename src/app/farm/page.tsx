@@ -8,6 +8,7 @@ import FarmPricing from './FarmPricing/FarmPricing'
 // Internal Components
 import LayoutContainerMain from '@/layouts/LayoutContainerMain/LayoutContainerMain'
 import HorizontalLineBreak from '@/components/HorizontalLineBreak/HorizontalLineBreak'
+import TestimonialsMeat from './TestimonialsMeat/TestimonialsMeat'
 
 export default function FarmPage() {
   return (
@@ -17,6 +18,7 @@ export default function FarmPage() {
       <HorizontalLineBreak />
       <FarmPricing />
       <WhyChooseUsFarms />
+      <TestimonialsMeat />
       <FarmContact />
     </LayoutContainerMain>
   )

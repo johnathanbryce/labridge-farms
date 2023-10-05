@@ -18,13 +18,13 @@ export default function TestimonialCard({rating, review, name, companyName}: Tes
 
   return (
     <div className={styles.testimonial_card}>
-        <div className={styles.stars_container}>
+{/*         <div className={styles.stars_container}>
             {starsArray}
-        </div>
+        </div> */}
         <p> {review}</p>
         <div>
             <h6> {name}</h6>
-            <p> {companyName} </p>
+            {/* <p> {companyName} </p> */}
         </div>
     </div>
   )

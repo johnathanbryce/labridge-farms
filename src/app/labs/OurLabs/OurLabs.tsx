@@ -26,7 +26,7 @@ export default function OurLabs() {
                 learnMoreDescription={detail.learnMoreDescription}
                 birthDate={detail.birthDate}
                 gender={detail.gender}
-                price={detail.price}
+               /*  price={detail.price} */
               />
             ))}
           </Carousel>

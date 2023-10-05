@@ -30,8 +30,8 @@ export default function TopContactInfoBar() {
 
         <div className={styles.socials_info}>
           <Link className={styles.link} href="https://www.facebook.com/profile.php?id=100034992205922" target='_blank'><AiFillFacebook className={styles.icon_social} /></Link>
-          <Link className={styles.link} href="" target='_blank'><AiFillInstagram className={styles.icon_social} /></Link>
-          <Link className={styles.link} href="" target='_blank'><AiFillTwitterCircle className={styles.icon_social} /></Link>
+          {/* <Link className={styles.link} href="" target='_blank'><AiFillInstagram className={styles.icon_social} /></Link> */}
+
         </div>
       </section>
   )

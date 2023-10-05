@@ -74,6 +74,7 @@ export default function ShopLabs() {
                 description={selectedProduct.description}
                 image={selectedProduct.image}
                 onClose={closeModal}
+                src="/labs"
             />
         )}
     </LayoutContainerSections>

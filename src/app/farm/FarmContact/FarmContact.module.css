@@ -8,8 +8,8 @@
 
 }
 
-.contact h6, .contact a {
-    color: var(--fontColor);
+.contact h6, .contact a, .contact p {
+    color: var(--fontColorFlip);
 }
 
 .icon {
