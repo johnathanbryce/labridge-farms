@@ -14,7 +14,7 @@ interface DogDetailsCardProps {
     learnMoreDescription: string,
     birthDate: string,
     gender: string,
-    price: string | number,
+    price?: string | number,
 }
 
 export default function DogDetailsCard({img, name, description, learnMoreDescription, price, birthDate, gender}: DogDetailsCardProps) {
@@ -42,7 +42,7 @@ export default function DogDetailsCard({img, name, description, learnMoreDescrip
               <p>{learnMoreDescription}</p>
               <p> {gender}</p>
               <p> Born on: {birthDate}</p>
-              <p className={styles.price}> ${price} </p>
+              {/* <p className={styles.price}> ${price} </p> */}
           </div>
         ) : null }
 

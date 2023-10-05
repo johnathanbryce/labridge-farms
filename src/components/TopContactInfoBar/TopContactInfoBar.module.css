@@ -17,8 +17,7 @@
 
 .socials_info {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: flex-end;
     flex: 0.2;
 }
 

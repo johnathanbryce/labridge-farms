@@ -74,6 +74,7 @@ export default function ShopMeats() {
                 description={selectedProduct.description}
                 image={selectedProduct.image}
                 onClose={closeModal}
+                src='/farm'
             />
         )}
     </LayoutContainerSections>

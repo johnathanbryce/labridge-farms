@@ -16,9 +16,9 @@ export default function LabPage() {
     <LayoutContainerMain>
       <HeroLabs />
       <AboutUsKennel />
-      <LabOverviewDetails />
-      <OurLabs />
       <Litters />
+      <OurLabs />
+      <LabOverviewDetails />
       <LabsPhotoGallery />
       <LabsContact />
     </LayoutContainerMain>

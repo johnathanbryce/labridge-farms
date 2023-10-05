@@ -5,6 +5,8 @@ import { FaLocationDot } from 'react-icons/fa6'
 import {BsFillTelephoneFill} from 'react-icons/bs'
 import {MdEmail} from 'react-icons/md'
 import {AiFillCloseCircle} from 'react-icons/ai'
+// Internal Components
+import Button from '@/components/Buttons/Button/Button'
 
 interface ProductModalProps{
     isOpen?: boolean,
@@ -12,9 +14,10 @@ interface ProductModalProps{
     name: string,
     description: string,
     image: any,
+    src?: string
 }
 
-export default function ProductModal({onClose, name, description, image}: ProductModalProps) {
+export default function ProductModal({onClose, name, description, image, src}: ProductModalProps) {
 
     return (
         <div className={styles.modal}>
@@ -32,7 +35,13 @@ export default function ProductModal({onClose, name, description, image}: Produc
               <a href="mailto:labridgekennels@hotmail.com" target="_blank">
                 Email: <MdEmail className={styles.icon}/>
               </a>
+                <Button
+                  isTransparent={false}
+                  label="Learn more"
+                  src={src}
+                />
             </div>
+
           </div>
       </div>
     );
