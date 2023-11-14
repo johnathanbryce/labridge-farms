@@ -3,8 +3,23 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     place-items: center;
-    gap: 2rem;
+    gap: 4rem;
     padding-bottom: 2rem;
+}
+
+.grid_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center; 
+    height: 35rem;
+    padding: 1rem; 
+}
+
+.grid_section_title {
+    text-align: center;
+    color: var(--fontColorFlip);
+    margin-bottom: 1rem;
 }
 
 .why_choose_wrapper{
@@ -12,10 +27,13 @@
     align-items: center;
     gap: 2rem;
     margin-top: 1rem;
+    text-align: left; 
+    width: 100%;
 }
 
 .icon{
     font-size: 4rem;
+    min-width: 4rem;
 }
 
 .why_choose_wrapper * {
@@ -23,5 +41,15 @@
 }
 
 .why_choose_wrapper p {
-    font-size: clamp(1.8rem, 2vw, 2.2rem);
+    font-size: clamp(1.25rem, 2vw, 1.8rem);
+    margin: 0; 
+    flex: 1; 
+}
+
+/* Mobile Devices (landscape) */
+@media (max-width: 775px) { 
+    .grid_section {
+        padding: 0.5;
+        width: 100%;
+    }
 }

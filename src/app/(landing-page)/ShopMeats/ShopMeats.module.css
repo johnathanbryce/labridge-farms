@@ -18,10 +18,15 @@
     gap: 5rem;
 }
 
-.disclaimer {
+.disclaimer, .as_available {
     align-self: center;
     text-align: center;
     width: 70%;
+}
+
+.as_available{
+    font-size: clamp(1.45rem, 2vw, 1.75rem);
+    font-style: italic;
 }
 
 .bold {

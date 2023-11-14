@@ -11,44 +11,33 @@ export default function WhyChooseUsFarms() {
       <section className={styles.why_choose_grid} id="why">
         <div className={styles.why_choose_wrapper}>
           <IoIosCheckmarkCircleOutline className={styles.icon} />
-          <p> Text callout here... </p>
+          <p> Antibiotic free </p>
         </div>
 
         <div className={styles.why_choose_wrapper}>
           <IoIosCheckmarkCircleOutline className={styles.icon} />
-          <p> Text callout here... </p>
+          <p> Hormone free </p>
         </div>
 
         <div className={styles.why_choose_wrapper}>
           <IoIosCheckmarkCircleOutline className={styles.icon} />
-          <p> Text callout here... </p>
+          <p> No pesticides or herbicides used on property </p>
         </div>
 
         <div className={styles.why_choose_wrapper}>
           <IoIosCheckmarkCircleOutline className={styles.icon} />
-          <p> Text callout here... </p>
+          <p> Naturally lean and delicious Highland beef </p>
         </div>
 
         <div className={styles.why_choose_wrapper}>
           <IoIosCheckmarkCircleOutline className={styles.icon} />
-          <p> Text callout here... </p>
+          <p> Heritage-breed pork products </p>
         </div>
 
         <div className={styles.why_choose_wrapper}>
           <IoIosCheckmarkCircleOutline className={styles.icon} />
-          <p> Text callout here... </p>
+          <p> Free-range eggs </p>
         </div>
-
-        <div className={styles.why_choose_wrapper}>
-          <IoIosCheckmarkCircleOutline className={styles.icon} />
-          <p> Text callout here... </p>
-        </div>
-
-        <div className={styles.why_choose_wrapper}>
-          <IoIosCheckmarkCircleOutline className={styles.icon} />
-          <p> Text callout here... </p>
-        </div>
-
       </section>
 
     </LayoutContainerSections>

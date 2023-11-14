@@ -14,13 +14,13 @@ interface PhotoGalleryCardProps {
 
 export default function PhotoGalleryCard({img, name, description}: PhotoGalleryCardProps) {
     const [isPhotoEnlarged, setIsPhotoEnlarged] = useState(false);
-
+  console.log('img')
     const toggleEnlargePhoto = () => {
       setIsPhotoEnlarged((prevState) => !prevState )
     }
   return (
     <div className={styles.photo_gallery_card}>
-        <Image src={img} className={styles.img} alt="" loading='lazy'/>
+        <Image src={img} className={styles.img} alt="an image of one of our labradors" loading='lazy'/>
         <div className={styles.hover_details_container}>
             <div className={styles.flex_wrapper}>
                 <p>{description}</p>

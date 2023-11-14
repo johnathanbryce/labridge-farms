@@ -11,16 +11,24 @@
     align-items: center;
     gap: 2rem;
     margin-top: 1rem;
+    min-height: 5rem;
+    padding: 1rem; 
+    text-align: left; 
+    width: 100%;
 }
 
 .icon{
     font-size: 4rem;
+    min-width: 4rem;
 }
 
 .why_choose_wrapper * {
     color: var(--fontColorFlip);
+ 
 }
 
 .why_choose_wrapper p {
     font-size: clamp(1.8rem, 2vw, 2.2rem);
+    flex: 1; 
+    margin: 0; 
 }

@@ -18,7 +18,18 @@
 .socials_info {
     display: flex;
     justify-content: flex-end;
+    gap: 2rem;
     flex: 0.2;
+}
+
+.link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socials_text{
+    font-size: 0.75rem;
 }
 
 .icon {
@@ -27,10 +38,7 @@
 
 }
 
-.link{
-    display: flex;
-    align-items: center;
-}
+
 
 .icon_social{
     font-size: 2rem;
