@@ -9,7 +9,6 @@ import Button from '@/components/Buttons/Button/Button';
 // Internal Assets
 import heroPageFarmImg from '../../../../public/assets/heroPageMainPlaceholder.png';
 
-
 export default function HeroMain() {
   return (
       <section className={styles.hero}>

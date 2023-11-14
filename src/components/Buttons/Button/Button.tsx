@@ -9,18 +9,15 @@ interface ButtonProps{
     src?: any
 }
 
-function Button({ label, isTransparent, onClick, src}: ButtonProps) {
-  // src is to link to another page 
+function Button({ label, isTransparent, src }: ButtonProps) {
+  const buttonStyle = isTransparent ? styles.button_transparent : styles.button_normal;
+
   return (
-    <Link href={src}>
-        { isTransparent ?
-          <button className={styles.button_transparent} onClick={onClick}> {label} </button>
-          :
-          <button className={styles.button_normal} onClick={onClick}> {label} </button>
-        } 
-    </Link>   
-  
-  )
+      <Link href={src} className={buttonStyle}>
+          {label}
+      </Link>
+  );
 }
+
 
 export default Button
