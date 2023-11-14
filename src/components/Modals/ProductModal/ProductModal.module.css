@@ -27,7 +27,7 @@
     align-items: center;
     text-align: center;
     gap: 2rem;
-    width: 70rem;
+    width: 80vw;
     background-color: var(--primaryColor);
     padding: 2rem;
     border-radius: var(--borderRadius);
@@ -51,7 +51,7 @@
 }
 
 .img {
-    width: 70%;
+    width: 60%;
     height: 100%;
     max-height: 40rem;
     object-fit: cover;
@@ -81,10 +81,6 @@
 
 /* Mobile Devices up to 480px */
 @media (max-width: 480px) {  
-    .modal_content{
-        width: 30rem;
-    }
-
     .img{
         width: 100%;
     }
@@ -92,12 +88,18 @@
     .close{
         font-size: 4rem;
     }
+
+    .icons_container{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
 }
 
 /* Tiny Mobile Devices up to 325px (e.g. galaxy fold) */
 @media (max-width: 325px) {  
     .modal_content{
-        width: 24.5rem;
+       /*  width: 24.5rem; */
     }
 
     .close{

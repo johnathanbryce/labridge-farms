@@ -21,13 +21,13 @@ const meatProducts = [
     {
         image: porkPlaceholder,
         name: 'Pork',
-        price: '$6.00 / lb',
+        price: '$5.00 / lb',
         description: 'this is a more detailed description of our pork. Am ipsum dolor sit amet, consec- tetur adipiscing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud '
     },
     {
         image: groundBeefPlaceholder,
         name: 'Ground Beef',
-        price: '$5.00 / lb',
+        price: '$6.00 / lb',
         description: 'this is a more detailed description of our ground beef. Am ipsum dolor sit amet, consec- tetur adipiscing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud '
     }
 ]
@@ -63,7 +63,8 @@ export default function ShopMeats() {
             />
             ))}
         </div>
-
+        
+        <p className={styles.as_available}> As available, Labridge Farms occasionally offers free-range eggs, fresh lamb, chicken, turkey and additional specialty meats such as duck, goose and pheasant. Contact us for availability.</p>
         <p className={styles.disclaimer}> <span className={styles.bold}>Labridge Farms promise:</span> all our meat is sourced from pasture-raised, grass-fed animals, reflecting our holistic approach to ethical and sustainable farming.</p>
         </section>
 

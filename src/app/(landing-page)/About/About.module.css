@@ -30,7 +30,7 @@
 }
 
 .callout p:nth-child(1){
-    font-size: clamp(1.9rem, 2vw, 2.7rem);
+    font-size: clamp(1.35rem, 2vw, 1.9rem);
     text-align: center;
     font-weight: 900;
 }
@@ -62,5 +62,10 @@
 @media (max-width: 775px) { 
     .callout_card{
         width: 100vw;
+        gap: 2.5rem;
+    }
+
+    .callout p:nth-child(1){
+        text-align: left;
     }
 }

@@ -43,27 +43,21 @@ export default function Testimonials() {
                     <div className={styles.embla__container}>
                         <TestimonialCard
                             rating={5}
-                            review="Am ipsum dolor sit amet, consec- tetur adipiscing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
-                            name="Placeholder Name 1"
+                            review="There is simply no comparison between the flavour of this pasture-raised beef and what you get at the grocery stores!"
+                            name="- Mike"
                             companyName="Placeholder Company Name 1 "
                         />
                         <TestimonialCard
                             rating={4}
-                            review="Am ipsum dolor sit amet, consec- tetur adipiscing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
-                            name="Placeholder Name 2 "
+                            review="We have been so pleased with sides of pork we have purchased from Labridge Farms.  It has such a rich flavour – and the price is great for the quality that we receive!"
+                            name="- Scott & Kelly"
                             companyName="Placeholder Company Name2 "
                         />
                         <TestimonialCard
                             rating={3}
-                            review="Am ipsum dolor sit amet, consec- tetur adipiscing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
-                            name="Placeholder Name 3 "
+                            review="I buy sides of both beef and pork and I am very happy with the variety of cuts and quality of the meats.”"
+                            name="- Doug "
                             companyName="Placeholder Company Name 3 "
-                        />
-                        <TestimonialCard
-                            rating={5}
-                            review="Am ipsum dolor sit amet, consec- tetur adipiscing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
-                            name="Placeholder Name 4 "
-                            companyName="Placeholder Company Name 4"
                         />
                     </div>
                 </div>
