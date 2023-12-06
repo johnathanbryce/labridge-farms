@@ -86,6 +86,11 @@
     .close{
         font-size: 4rem;
     }
+
+    .icons_container{
+        align-items: center;
+        flex-direction: column;
+    }
 }
 
 /* Tiny Mobile Devices up to 325px (e.g. galaxy fold) */

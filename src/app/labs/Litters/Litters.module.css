@@ -42,6 +42,10 @@
     width: 100%;
     flex: 0.2;
     color: var(--fontColor);
+    width: 4vw; /* Adjust as needed */
+    height: 4vw; /* Adjust as needed */
+    flex: none;
+    
 }
 
 .disclaimer {
@@ -81,6 +85,9 @@
 @media (max-width: 480px) {  
     .grid_container{
         gap: 1.5rem;
+    }
+    .content{
+        height: auto;
     }
 }
 

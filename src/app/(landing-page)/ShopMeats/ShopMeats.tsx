@@ -16,19 +16,19 @@ const meatProducts = [
         image: beefPlaceholder,
         name: 'Beef',
         price: '$6.00 / lb',
-        description: 'this is a more detailed description of our beef. Am ipsum dolor sit amet, consec- tetur adipiscing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud '
+        description: ' '
     },
     {
         image: porkPlaceholder,
         name: 'Pork',
         price: '$5.00 / lb',
-        description: 'this is a more detailed description of our pork. Am ipsum dolor sit amet, consec- tetur adipiscing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud '
+        description: ' '
     },
     {
         image: groundBeefPlaceholder,
         name: 'Ground Beef',
         price: '$6.00 / lb',
-        description: 'this is a more detailed description of our ground beef. Am ipsum dolor sit amet, consec- tetur adipiscing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud '
+        description: ' '
     }
 ]
 

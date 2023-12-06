@@ -14,7 +14,6 @@ interface PhotoGalleryCardProps {
 
 export default function PhotoGalleryCard({img, name, description}: PhotoGalleryCardProps) {
     const [isPhotoEnlarged, setIsPhotoEnlarged] = useState(false);
-  console.log('img')
     const toggleEnlargePhoto = () => {
       setIsPhotoEnlarged((prevState) => !prevState )
     }

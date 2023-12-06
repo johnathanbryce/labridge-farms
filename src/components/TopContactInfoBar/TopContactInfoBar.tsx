@@ -14,11 +14,11 @@ export default function TopContactInfoBar() {
         <div className={styles.contact_info}>
             <a href={googleMapsLink} className={styles.contact_wrapper} target="_blank" rel="noopener noreferrer">
               <FaLocationDot className={styles.icon} />
-              <p className={styles.top_text}> 1230 Black Hole Road, Canning NS   </p>
+              <p className={styles.top_text}> Glenmont, Nova Scotia   </p>
             </a>
-            <a href="tel:+9025821675" className={styles.contact_wrapper}>
+            <a href="tel:+9026799445" className={styles.contact_wrapper}>
               <BsFillTelephoneFill className={styles.icon} />
-              <p className={styles.top_text}>(902) 582-1675  </p>
+              <p className={styles.top_text}>(902) 679-9445  </p>
             </a>
         </div>
 

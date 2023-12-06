@@ -11,9 +11,9 @@ import {BiMicrochip} from 'react-icons/bi'
 
 export default function Litters() {
   return (
-    <LayoutContainerSections title='Our Next Litter is Due: XXX' bgColor='brown'>
+    <LayoutContainerSections title='Our Next Litter is Due: December 2023' bgColor='brown'>
         <section className={styles.litters} id="litters">
-            {/* <p> We breed top-quality Labs in numerous colours: chocolate, black, and yellow (ranging from white to fox-red), as well as silver- and charcoal-coloured Labs.  Though we produce dogs which excel as hunters and work in field trials, our primary focus is on producing more relaxed, calm family pets.  </p> */}
+    
             <p> Our primary concern is producing hale and hearty dogs with outgoing, friendly temperaments that are intelligent, dependable, and eager to please.  </p>
             <div className={styles.grid_container}>
                 <div className={styles.content}>

@@ -1,0 +1,27 @@
+.testimonials{
+    display: flex;
+    justify-content: center;
+    padding: 3.5rem 0 ;
+}
+
+.embla {
+    overflow: hidden;
+    flex: 0.75;
+}
+
+.embla__container {
+    display: flex;
+    gap: 4rem;
+}
+.embla__slide {
+    flex: 0 0 100%;
+    min-width: 0;
+}
+
+/* Tablets (portrait) */
+/* @media (max-width: 950px) { 
+    .testimonials{
+        flex-direction: column;
+        gap: 4rem;
+    }
+} */

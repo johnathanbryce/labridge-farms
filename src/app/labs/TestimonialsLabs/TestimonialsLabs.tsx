@@ -1,6 +1,6 @@
 'use client'
 import React, { useCallback } from 'react'
-import styles from './TestimonialsMeat.module.css'
+import styles from './TestimonialsLabs.module.css'
 // Layout
 import LayoutContainerSections from '@/layouts/LayoutContainerSections/LayoutContainerSections'
 // Internal Components
@@ -9,7 +9,7 @@ import TestimonialCard from '@/components/TestimonialCard/TestimonialCard'
 import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
 
-export default function TestimonialsMeat() {
+export default function TestimonialsLabs() {
     const [emblaRef, emblaApi] = useEmblaCarousel({loop: false}, [Autoplay()])
 
     const scrollPrev = useCallback(() => {
@@ -28,16 +28,20 @@ export default function TestimonialsMeat() {
                 <div className={styles.embla__viewport} ref={emblaRef}>
                     <div className={styles.embla__container}>
                         <TestimonialCard
-                            review="There is simply no comparison between the flavour of this pasture-raised beef and what you get at the grocery stores!"
-                            name="- Mike"
+                            review="Am ipsum dolor sit amet, consec- tetur adipiscing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+                            name="Placeholder Name 1"
                         />
                         <TestimonialCard
-                            review="We have been so pleased with sides of pork we have purchased from Labridge Farms.  It has such a rich flavour – and the price is great for the quality that we receive!"
-                            name="- Scott & Kelly"
+                            review="Am ipsum dolor sit amet, consec- tetur adipiscing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+                            name="Placeholder Name 2 "
                         />
                         <TestimonialCard
-                            review="I buy sides of both beef and pork and I am very happy with the variety of cuts and quality of the meats.”"
-                            name="- Doug "
+                            review="Am ipsum dolor sit amet, consec- tetur adipiscing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+                            name="Placeholder Name 3 "
+                        />
+                        <TestimonialCard
+                            review="Am ipsum dolor sit amet, consec- tetur adipiscing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+                            name="Placeholder Name 4 "
                         />
                     </div>
                 </div>

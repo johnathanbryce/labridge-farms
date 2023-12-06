@@ -37,6 +37,10 @@
 
 /* Tablets (portrait) */
 @media (max-width: 950px) { 
+    .about {
+        text-align: center;
+    }
+    
     .product_section{
         align-items: center;
     }
