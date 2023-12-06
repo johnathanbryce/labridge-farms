@@ -19,10 +19,11 @@ export default function Home() {
       <About />
       <WhyChooseLabridgeFarms />
       <ShopMeats />
+      {/* <HorizontalLineBreak /> */}
+      <Testimonials />
       <HorizontalLineBreak />
       <ShopLabs />
-      <HorizontalLineBreak />
-      <Testimonials />
+
       <Contact />
     </LayoutContainerMain>
   )

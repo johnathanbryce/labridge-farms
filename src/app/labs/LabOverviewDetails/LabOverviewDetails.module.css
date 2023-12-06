@@ -21,8 +21,6 @@
 }
 
 .icon {
-    color: var(--defaultColor);
-    filter: grayscale(100%);
     width: 5.25rem;
     height: 5.25rem;
 }

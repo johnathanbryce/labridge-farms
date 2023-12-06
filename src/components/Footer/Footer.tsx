@@ -17,7 +17,7 @@ export default function Footer() {
         <div className={styles.footer_section}>
           <h5> LABRIDGE FARMS </h5>
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+          Your one-stop destination for premium farm meats and exceptional Labrador retrievers.
           </p>
           <div className={styles.icons_container}>
             <a href={googleMapsLink} className={styles.link} target="_blank" rel="noopener noreferrer">

@@ -27,9 +27,9 @@ export default function ProductModal({onClose, name, description, image, src}: P
             <img src={image.src} className={styles.img} alt="" />
             <h6 className={styles.name}> {name} </h6>
             <p className={styles.description}> {description} </p>
-            <p> To place your order, or find out more about this product, send us an email or give us a call: </p>
+            <p> To place your order, or find out more, send us an email or give us a call: </p>
             <div className={styles.icons_container}>
-              <a href="tel:+9025821675">
+              <a href="tel:+9026799445">
                 Phone: <BsFillTelephoneFill className={styles.icon} />
               </a>
               <a href="mailto:labridgekennels@hotmail.com" target="_blank">

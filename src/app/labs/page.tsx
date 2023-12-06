@@ -1,7 +1,7 @@
 import React from 'react'
 // Internal Components
 import LayoutContainerMain from '@/layouts/LayoutContainerMain/LayoutContainerMain'
-import HorizontalLineBreak from '@/components/HorizontalLineBreak/HorizontalLineBreak'
+import TestimonialsLabs from './TestimonialsLabs/TestimonialsLabs'
 // Pages
 import HeroLabs from './HeroLabs/HeroLabs'
 import AboutUsKennel from './AboutUsKennel/AboutUsKennel'
@@ -18,6 +18,7 @@ export default function LabPage() {
       <AboutUsKennel />
       <Litters />
       <OurLabs />
+      {/* <TestimonialsLabs /> */}
       <LabOverviewDetails />
       <LabsPhotoGallery />
       <LabsContact />

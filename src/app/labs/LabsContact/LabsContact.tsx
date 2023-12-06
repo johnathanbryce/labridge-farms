@@ -12,11 +12,11 @@ export default function LabsContact() {
         <section className={styles.contact} id="contact">
             <p> Whether you have inquiries about our labs or are considering making a purchase, contact us below: </p>
             <h6 className={styles.link} > <a href="mailto:labridgekennels@hotmail.com" target="_blank" >labridgekennels@hotmail.com</a> </h6>
-            <h6 className={styles.link}> <a href="tel:+9025821675" >(902) 582-1675</a> </h6>      
+            <h6 className={styles.link}> <a href="tel:+9026799445" >(902) 679-9445</a> </h6>
             <a href={googleMapsLink} className={styles.address_container}target="_blank" rel="noopener noreferrer" >
-                1230 Black Hole Road, Canning NS
+                Glenmont, Nova Scotia
                 <FaLocationDot className={styles.icon} />
-            </a>     
+            </a>      
         </section>
     </LayoutContainerSections>
   )

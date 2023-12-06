@@ -19,7 +19,6 @@
 
 .icon{
     font-size: 4rem;
-    min-width: 4rem;
 }
 
 .why_choose_wrapper * {
@@ -28,7 +27,19 @@
 }
 
 .why_choose_wrapper p {
-    font-size: clamp(1.8rem, 2vw, 2.2rem);
+    font-size: clamp(1.25rem, 2vw, 1.8rem);
     flex: 1; 
     margin: 0; 
+}
+
+/* Mobile Devices (landscape) */
+@media (max-width: 775px) { 
+    .grid_section {
+        padding: 0.5;
+        width: 100%;
+    }
+
+    .icon{
+        font-size: 2rem;
+    }
 }

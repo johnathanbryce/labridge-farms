@@ -15,20 +15,20 @@ const labProducts = [
     {
         image: Lily2,
         name: 'Lily',
-        price: '$$$',
-        description: 'this is a more detailed description of Lily. Am ipsum dolor sit amet, consec- tetur adipiscing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud '
+        /* price: '$500', */
+        description: ' '
     },
     {
         image: Olive,
         name: 'Olive',
-        price: '$$$',
-        description: 'this is a more detailed description of Olive. Am ipsum dolor sit amet, consec- tetur adipiscing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud '
+        /* price: '$500', */
+        description: ' '
     },
     {
         image: River2,
         name: 'River',
-        price: '$$$',
-        description: 'this is a more detailed description of River. Am ipsum dolor sit amet, consec- tetur adipiscing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud '
+        /* price: '$500', */
+        description: ''
     }
 ]
 
@@ -64,7 +64,6 @@ export default function ShopLabs() {
             ))}
         </div>
 
-        <p className={styles.disclaimer}> <span className={styles.bold}>Labridge Kennels promise:</span> a brief disclaimer or blurb about our dogs here...</p>
         </section>
 
         {/* renders in product pop-up modals, and displays the correct one when openModal(product) is triggered */}
