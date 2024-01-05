@@ -15,55 +15,55 @@ const labsPhotoGalleryList = [
         id: 1,
         img: Cael,
         name: 'Cael',
-        /* description: 'This is a some more details about this lab/or this photo.', */
+        description: 'This is a some more details about this lab/or this photo.',
     },
     {   
         id: 2,
         img: puppyOne,
         name: 'Puppy XYZ',
-        /* description: 'This is a very brief description of this lab.', */
+        description: 'This is a very brief description of this lab.',
     },
     {   
         id: 3,
         img: puppyTwo,
         name: 'Puppy XYZ',
-        /* description: 'This is a very brief description of this lab.', */
+        description: 'This is a very brief description of this lab.',
     },
     {   
         id: 4,
         img: puppyThree,
         name: 'Puppy XYZ',
-        /* description: 'This is a very brief description of this lab.', */
+        description: 'This is a very brief description of this lab.',
     },
     {   
         id: 5,
         img: puppyFour,
         name: 'Puppy XYZ',
-        /* description: 'This is a very brief description of this lab.', */
+        description: 'This is a very brief description of this lab.',
     },
     {
         id: 6,
         img: Olive,
         name: 'Puppy XYZ',
-        /* description: 'This is a very brief description of this lab.', */
+        description: 'This is a very brief description of this lab.',
     },
     {
         id: 7,
         img: Lily,
         name: 'Puppy XYZ',
-        /* description: 'This is a very brief description of this lab.', */
+        description: 'This is a very brief description of this lab.',
     },
     {
         id: 8,
         img: River,
         name: 'Puppy XYZ',
-        /* description: 'This is a very brief description of this lab.', */
+        description: 'This is a very brief description of this lab.',
     },
     {
         id: 9,
         img: Sage,
         name: 'Puppy XYZ',
-        /* description: 'This is a very brief description of this lab.', */
+        description: 'This is a very brief description of this lab.',
     },
 
 ]
