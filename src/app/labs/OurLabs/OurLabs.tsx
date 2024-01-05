@@ -16,7 +16,35 @@ export default function OurLabs() {
     <LayoutContainerSections title="Our Labs" bgColor='white'>
         <section className={styles.our_labs} id="labs">
           <p className={styles.text}> We breed top-quality Labs in numerous colours: chocolate, black, and yellow (ranging from white to fox-red), as well as silver- and charcoal-coloured Labs.  Though we produce dogs which excel as hunters and work in field trials, our primary focus is on producing more relaxed, calm family pets.  </p>
-          <Carousel>
+          {/*TODO: remove this basic list and replace inside carousel when images and details are ready */}
+         <div className={styles.placeholder_section}>
+            <p> <em> Further images and information on our labs coming soon! </em></p>
+            <div>
+
+            <div className={styles.lists_container}>
+              <div>
+                <h6>Male Labs</h6>
+                <ul>
+                  <li>Koda - Yellow</li>
+                  <li>Spencer - Black</li>
+                  <li>Toby - Chocolate</li>
+                  <li>Milo - Charcoal</li>
+                </ul>
+              </div>
+
+              <div>
+                <h6> Female Labs</h6>
+                <ul>
+                  <li>Koda - Yellow</li>
+                  <li>Spencer - Black</li>
+                  <li>Toby - Chocolate</li>
+                  <li>Milo - Charcoal</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+         </div>
+{/*           <Carousel>
             {labDetailsList.map((detail) => (
               <DogDetailsCard
                 key={detail.id}
@@ -26,10 +54,10 @@ export default function OurLabs() {
                 learnMoreDescription={detail.learnMoreDescription}
                 birthDate={detail.birthDate}
                 gender={detail.gender}
-               /*  price={detail.price} */
+               
               />
             ))}
-          </Carousel>
+          </Carousel> */}
         </section>
 
     </LayoutContainerSections>

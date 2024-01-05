@@ -11,7 +11,7 @@ import {BiMicrochip} from 'react-icons/bi'
 
 export default function Litters() {
   return (
-    <LayoutContainerSections title='Our Next Litter is Due: December 2023' bgColor='brown'>
+    <LayoutContainerSections title='Our Next Litter is Due: mid-February 2024' bgColor='brown'>
         <section className={styles.litters} id="litters">
     
             <p> Our primary concern is producing hale and hearty dogs with outgoing, friendly temperaments that are intelligent, dependable, and eager to please.  </p>

@@ -28,20 +28,20 @@ export default function TestimonialsLabs() {
                 <div className={styles.embla__viewport} ref={emblaRef}>
                     <div className={styles.embla__container}>
                         <TestimonialCard
-                            review="Am ipsum dolor sit amet, consec- tetur adipiscing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
-                            name="Placeholder Name 1"
+                            review="The two new Labridge pups I added to my family are as wonderful as the two I added from their operation a decade ago!"
+                            name="Linda"
                         />
                         <TestimonialCard
-                            review="Am ipsum dolor sit amet, consec- tetur adipiscing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
-                            name="Placeholder Name 2 "
+                            review="Our chocolate male from Labridge was so well-mannered he frequently came to work and greeted patients at my physiotherapy clinic."
+                            name="Jeff "
                         />
                         <TestimonialCard
-                            review="Am ipsum dolor sit amet, consec- tetur adipiscing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
-                            name="Placeholder Name 3 "
+                            review="Our puppy was so well socialized when we brought him home – he was an immediate member of our family."
+                            name="Akeem"
                         />
                         <TestimonialCard
-                            review="Am ipsum dolor sit amet, consec- tetur adipiscing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
-                            name="Placeholder Name 4 "
+                            review="I love the Labridge body-shape and stature and they give the sweetest little kisses."
+                            name="Linda"
                         />
                     </div>
                 </div>

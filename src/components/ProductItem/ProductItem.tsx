@@ -17,7 +17,7 @@ export default function ProductItem({openModal, product, isMeat, isDog}: Product
         <figure>
           <img src={image.src} className={styles.product_img} alt="Labridge Farm's meat"  />
           <figcaption> <span className={styles.product_title}> {name} </span> {/* (grass-fed & pastured raised) */}  </figcaption>
-          <span className={styles.product_price}> {price} </span> dressed weight 
+          <span className={styles.product_price}> {price} </span> 
         </figure>
       )}
 
