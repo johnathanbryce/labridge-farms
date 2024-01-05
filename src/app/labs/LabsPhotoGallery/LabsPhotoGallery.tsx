@@ -19,7 +19,7 @@ export default function LabsPhotoGallery() {
                         key={photo.id} 
                         img={photo.img} 
                         name={photo.name}
-                        description={photo.description}
+                        /* description={photo.description} */
                     />
                 ))
             }
