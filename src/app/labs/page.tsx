@@ -18,7 +18,7 @@ export default function LabPage() {
       <AboutUsKennel />
       <Litters />
       <OurLabs />
-      {/* <TestimonialsLabs /> */}
+      <TestimonialsLabs />
       <LabOverviewDetails />
       <LabsPhotoGallery />
       <LabsContact />

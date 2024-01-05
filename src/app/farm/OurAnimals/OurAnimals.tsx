@@ -6,7 +6,7 @@ import Image from 'next/image'
 import LayoutContainerSections from '@/layouts/LayoutContainerSections/LayoutContainerSections'
 // Internal Assets
 import highlandImg from '../../../../public/assets/highland.jpg'
-import pigPlaceholderImg from '../../../../public/assets/pigPlaceholder.jpg'
+import ourAnimalsBerkshire from '../../../../public/assets/ourAnimalsBerkshire.jpeg'
 
 export default function OurAnimals() {
   return (
@@ -28,7 +28,7 @@ export default function OurAnimals() {
             <div className={styles.product_section}>
                 <h4> Pork</h4>
                 <div className={styles.product_content_wrapper}>
-                    <Image src={pigPlaceholderImg} className={styles.product_img} alt="A picture of a Labrige Farm's Berkshire pig"/>
+                    <Image src={ourAnimalsBerkshire} className={styles.product_img} alt="A picture of a Labrige Farm's Berkshire pig"/>
                     <p> We raise primarily Berkshire pigs for our pork.  The Berkshire pig is a heritage breed, and often called the “wagyu of pork” the meat is prized for its rich, complex flavour and succulent texture and marbling.  You will find the meat a darker red and sweeter, more flavourful meat than conventional commercial pork.</p>
                 </div>
             </div> 

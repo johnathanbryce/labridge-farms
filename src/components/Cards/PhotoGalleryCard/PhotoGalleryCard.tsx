@@ -9,7 +9,7 @@ import LargePhotoModal from '@/components/Modals/LargePhotoModal/LargePhotoModal
 interface PhotoGalleryCardProps {
     img: any,
     name: string,
-    description: string,
+    description?: string,
 }
 
 export default function PhotoGalleryCard({img, name, description}: PhotoGalleryCardProps) {
@@ -27,7 +27,7 @@ export default function PhotoGalleryCard({img, name, description}: PhotoGalleryC
                     View Larger
                  </button>        
             </div>
-            {isPhotoEnlarged ? <LargePhotoModal image={img} description={description} onClose={toggleEnlargePhoto} /> : null}
+            {isPhotoEnlarged ? <LargePhotoModal image={img} /* description={description} */ onClose={toggleEnlargePhoto} /> : null}
         </div>
     </div>
   )

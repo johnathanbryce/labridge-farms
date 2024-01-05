@@ -8,7 +8,7 @@ import {AiOutlineCloseCircle} from 'react-icons/ai'
 interface LargePhotoModalProps{
     onClose: () => void,
     image: any,
-    description: string
+    description?: string
 }
 
 export default function LargePhotoModal({image, description, onClose}: LargePhotoModalProps) {

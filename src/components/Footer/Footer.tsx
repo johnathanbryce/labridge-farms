@@ -23,7 +23,7 @@ export default function Footer() {
             <a href={googleMapsLink} className={styles.link} target="_blank" rel="noopener noreferrer">
               <FaLocationDot className={styles.icon} />
             </a>
-            <a href="tel:+9025821675" className={styles.link}>
+            <a href="tel:+9026799445" className={styles.link}>
               <BsFillTelephoneFill className={styles.icon} />
             </a>
             <a href="mailto:labridgekennels@hotmail.com" target="_blank" className={styles.link}>
@@ -43,9 +43,9 @@ export default function Footer() {
         <div className={styles.footer_section}>
             <h5> Contact </h5>
             <a href="mailto:labridgekennels@hotmail.com" target="_blank">labridgekennels@hotmail.com</a> 
-            <a href="tel:+9025821675">(902) 582-1675</a> 
+            <a href="tel:+9026799445" >(902) 679-9445</a>
             <a href={googleMapsLink} target="_blank" rel="noopener noreferrer">
-                1230 Black Hole Road, Canning NS
+                Glenmont, Nova Scotia
             </a>
         </div>
       </footer>
