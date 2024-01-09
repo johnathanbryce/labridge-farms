@@ -14,19 +14,19 @@ import River2 from '../../../../public/assets/River2.jpg';
 const labProducts = [
     {
         image: Lily2,
-        name: 'Lily',
+        name: 'Koda',
         /* price: '$500', */
         description: ' '
     },
     {
         image: Olive,
-        name: 'Olive',
+        name: 'Spencer',
         /* price: '$500', */
         description: ' '
     },
     {
         image: River2,
-        name: 'River',
+        name: 'Toby',
         /* price: '$500', */
         description: ''
     }
@@ -49,21 +49,20 @@ export default function ShopLabs() {
   return (
     <LayoutContainerSections title="Our Labrador Retrievers" bgColor='white'>
         <section className={styles.shop_labs} id="kennel">
-        <div className={styles.header_section}>
-            <Button label="Shop Labradors" isTransparent={false} src="/labs" />
-        </div>
+            <div className={styles.header_section}>
+                <Button label="Shop Labradors" isTransparent={false} src="/labs" />
+            </div>
 
-        <div className={styles.product_container}>
-            {labProducts.map((product, index) => (
-                <ProductItem
-                    key={index}
-                    product={product}
-                    openModal={() => openModal(product)} // selects the product to trigger pop-up modal for that product
-                    isDog={true}
-                />
-            ))}
-        </div>
-
+            <div className={styles.product_container}>
+                {labProducts.map((product, index) => (
+                    <ProductItem
+                        key={index}
+                        product={product}
+                        openModal={() => openModal(product)} // selects the product to trigger pop-up modal for that product
+                        isDog={true}
+                    />
+                ))}
+            </div>
         </section>
 
         {/* renders in product pop-up modals, and displays the correct one when openModal(product) is triggered */}

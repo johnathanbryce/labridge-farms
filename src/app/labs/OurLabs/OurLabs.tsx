@@ -35,10 +35,12 @@ export default function OurLabs() {
               <div>
                 <h6> Female Labs</h6>
                 <ul>
-                  <li>Koda - Yellow</li>
-                  <li>Spencer - Black</li>
-                  <li>Toby - Chocolate</li>
-                  <li>Milo - Charcoal</li>
+                  <li> Reese - Chocolate</li>
+                  <li> Lola - Chocolate</li>
+                  <li>Fern - Fox Red</li>
+                  <li>Willow - Charcoal</li>
+                  <li>Ivy - Silver</li>
+                  <li>Luna - White</li>
                 </ul>
               </div>
             </div>

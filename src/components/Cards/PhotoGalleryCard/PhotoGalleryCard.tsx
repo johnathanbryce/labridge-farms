@@ -22,7 +22,7 @@ export default function PhotoGalleryCard({img, name, description}: PhotoGalleryC
         <Image src={img} className={styles.img} alt="an image of one of our labradors" loading='lazy'/>
         <div className={styles.hover_details_container}>
             <div className={styles.flex_wrapper}>
-                <p>{description}</p>
+                {/* <p>{description}</p> */}
                 <button className={styles.button_normal} onClick={toggleEnlargePhoto}>
                     View Larger
                  </button>        
