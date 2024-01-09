@@ -10,10 +10,11 @@ import ProductItem from '@/components/ProductItem/ProductItem'
 import Lily2 from '../../../../public/assets/Lily2.jpg'
 import Olive from '../../../../public/assets/Olive.jpg';
 import River2 from '../../../../public/assets/River2.jpg';
+import Coda from '../../../../public/assets/Coda.jpg'
 
 const labProducts = [
     {
-        image: Lily2,
+        image: Coda,
         name: 'Koda',
         /* price: '$500', */
         description: ' '
