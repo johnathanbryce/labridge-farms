@@ -27,7 +27,7 @@
     align-items: center;
     text-align: center;
     gap: 2rem;
-    width: 80vw;
+    width: 60vw;
     background-color: var(--primaryColor);
     padding: 2rem;
     border-radius: var(--borderRadius);

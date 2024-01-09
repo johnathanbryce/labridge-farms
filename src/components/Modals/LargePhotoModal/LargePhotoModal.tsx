@@ -18,7 +18,7 @@ export default function LargePhotoModal({image, description, onClose}: LargePhot
         <div className={styles.modal_content}>
             <AiOutlineCloseCircle className={styles.close} onClick={onClose} />
             <Image src={image} alt="" className={styles.img}/>
-            <p className={styles.text}>{description}</p>
+            {/* <p className={styles.text}>{description}</p> */}
         </div>
 
 
