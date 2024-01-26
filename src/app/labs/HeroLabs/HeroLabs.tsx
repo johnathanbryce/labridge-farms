@@ -18,7 +18,7 @@ export default function HeroLabs() {
         <LayoutContainerSections>
         <div className={styles.hero_content}>
           <h1>Welcome to Labridge Kennels </h1>
-          <h6> Your one-stop destination for exceptional Labrador retrievers. Lorem ipsum delorum... </h6>
+          <h6> Your one-stop destination for exceptional Labrador retrievers. </h6>
           <div className={styles.buttons_container}>
             <Button label="HOME" isTransparent={true} src="/"/>
             <Button label="OUR FARM" isTransparent={true} src="/farm"/>
