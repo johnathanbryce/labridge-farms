@@ -22,6 +22,7 @@ export default function AboutUsKennel() {
     const toggleReadMore = () => {
         setDisplayMore((prevState) =>!prevState )
     }
+    
   return (
     <LayoutContainerSections title="About Labridge Kennels" bgColor='white'>
         <section className={styles.about}>
