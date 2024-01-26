@@ -26,7 +26,7 @@ export default function AboutUsKennel() {
     <LayoutContainerSections title="About Labridge Kennels" bgColor='white'>
         <section className={styles.about}>
             <div className={styles.text}>
-                <p> Labridge Kennels is a small CKC registered breeding operation located in the picturesque Annapolis Valley of Nova Scotia. With over 20 years of breeding experience, we are committed to producing the highest quality, intelligent, reliable Labrador Retrievers.   </p>
+                <p>Labridge Kennels is a small CKC registered breeding operation located in the picturesque Annapolis Valley of Nova Scotia. With over 20 years of breeding experience, we are committed to producing the highest quality, intelligent, reliable Labrador Retrievers.   </p>
                 <p>We raise our dogs actively and they spend as much time outdoors with people as possible.  Our dogs are members of the household, and time is made for all our dogs each day.  Our kennels are large with plenty of outdoor space for exercise and warm, weather-tight areas inside to keep cozy and dry. </p>
             </div>
 
