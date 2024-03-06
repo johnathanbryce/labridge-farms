@@ -6,7 +6,6 @@ import Image from 'next/image'
 // Internal Components
 import LayoutContainerSections from '@/layouts/LayoutContainerSections/LayoutContainerSections'
 import { AutoScrollCarousel } from '@/components/AutoScrollCarousel/AutoScrollCarousel'
-import Button from '@/components/Buttons/Button/Button'
 import ButtonPageScroll from '@/components/Buttons/ButtonPageScroll/ButtonPageScroll'
 // Internal Assets
 import CaelPupImg from '../../../../public/assets/Cael-pup1.jpg'
@@ -29,7 +28,6 @@ export default function AboutUsKennel() {
             <div className={styles.text}>
                 <p> Labridge Kennels is a small <a href="https://www.ckc.ca/en" target="_blank">CKC registered</a> breeding operation located in the picturesque Annapolis Valley of Nova Scotia.  We are committed to producing the highest quality, intelligent, reliable Labrador Retrievers.   </p>
                 <p>We raise our dogs actively and they spend as much time outdoors with people as possible.  Our dogs are members of the household, and time is made for all our dogs each day.  Our kennels are large with plenty of outdoor space for exercise and warm, weather-tight areas inside to keep cozy and dry. </p>
-                
            </div>
 
             {/* displays the ...read more option on >1200 px screen sizes */}
@@ -40,9 +38,7 @@ export default function AboutUsKennel() {
                         <p>We raise our dogs actively and they spend as much time outdoors with people as possible.  Our dogs are members of the household, and time is made for all our dogs each day.  Our kennels are large with plenty of outdoor space for exercise and warm, weather-tight areas inside to keep cozy and dry. </p>
                      </>
                 ) : null}
-                 <p className={styles.read_toggle} onClick={toggleReadMore}> {displayMore ?  <> Read Less...</>  : <> Read More...</>}</p>
-                
-               
+                 <p className={styles.read_toggle} onClick={toggleReadMore}> {displayMore ?  <> Read Less...</>  : <> Read More...</>}</p>          
             </div>
 
             <div className={styles.images}>
