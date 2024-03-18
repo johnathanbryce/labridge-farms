@@ -27,7 +27,7 @@ export default function DogDetailsCard({img, name, description, learnMoreDescrip
   return (
     <div className={styles.dog_card}>
         <div className={styles.image_container}>
-          <Image src={img} className={styles.img} alt="a picture of a Lab from Labridge Farm's" loading="lazy"/>
+          <Image src={img} className={styles.img} alt="a picture of a Lab from Labridge Farm's" loading="lazy" width={300} height={300}/>
         </div> 
 
         <div className={styles.text_container}>

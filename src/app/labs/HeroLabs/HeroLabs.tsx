@@ -13,7 +13,14 @@ import heroPageLabs from '../../../../public/assets/heroPageLabs.jpg';
 export default function HeroLabs() {
   return (
       <section className={styles.hero}>
-        <Image src={heroPageLabs} className={styles.background_image} priority alt="Labridge Farm's background image"/>
+        <Image 
+          src={heroPageLabs} 
+          className={styles.background_image} 
+          width={500} 
+          height={500}
+          priority 
+          alt="Labridge Farm's background image"
+        />
         <HeaderLabs />
         <LayoutContainerSections>
         <div className={styles.hero_content}>

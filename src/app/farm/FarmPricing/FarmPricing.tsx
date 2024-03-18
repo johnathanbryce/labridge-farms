@@ -22,7 +22,14 @@ export default function FarmPricing() {
             </div>
             <div className={styles.product_container}>
                 <div className={styles.product}>
-                    <Image src={beefPlaceholderImg} className={styles.product_img} alt="Labridge Farm's beef"/>
+                    <Image 
+                        src={beefPlaceholderImg} 
+                        className={styles.product_img} 
+                        alt="Labridge Farm's beef"
+                        loading="lazy"
+                        height={200}
+                        width={200}
+                        />
                     <div>
                         <h5> Beef </h5>
                         <p> <span className={styles.bold}>$6.00/lb</span> dressed weight </p>
@@ -39,7 +46,14 @@ export default function FarmPricing() {
                 </div>
 
                 <div className={styles.product}>
-                    <Image src={porkPlaceholderImg} className={styles.product_img} alt="Labridge Farm's pork"/>
+                    <Image 
+                        src={porkPlaceholderImg} 
+                        className={styles.product_img} 
+                        alt="Labridge Farm's pork"
+                        loading="lazy"
+                        height={200}
+                        width={200}
+                    />
                     <div>
                         <h5> Pork </h5>
                         <p> <span className={styles.bold}>$5.00/lb</span> dressed weight </p>

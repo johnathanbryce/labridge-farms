@@ -13,7 +13,14 @@ import heroPageFarmImg from '../../../../public/assets/heroPageFarm.jpg';
 export default function HeroFarm() {
   return (
       <section className={styles.hero}>
-        <Image src={heroPageFarmImg} className={styles.background_image} priority alt="Labridge Farm's background image"/>
+        <Image 
+          src={heroPageFarmImg} 
+          className={styles.background_image} 
+          priority 
+          alt="Labridge Farm's background image"                         
+          height={500}
+          width={500}
+        />
         <HeaderFarm />
         <LayoutContainerSections>
         <div className={styles.hero_content}>

@@ -30,7 +30,13 @@ export default function About() {
             </div> 
 
             <div className={styles.about_us_container}>
-                <Image src={aboutUs} className={styles.bio_pic} alt='A bio picture of Matthew, owner of Labridge Farms'/>
+                <Image 
+                    src={aboutUs} 
+                    className={styles.bio_pic} 
+                    alt="A picture of one of Labridge Farm's Cows"
+                    height={425}
+                    width={425}
+                />
                 <div className={styles.about_us_text_wrapper}>
                     <h3> About Us </h3>
                     <p> Labridge Farms is a small-scale, organic farm producing high-quality animal products as well as hale and hearty Labrador Retrievers. We are located in the beautiful and picturesque Annapolis Valley of Nova Scotia. </p>
