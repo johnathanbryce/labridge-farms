@@ -48,18 +48,18 @@ export default function AboutUsKennel() {
                 <div className={styles.button_image_container}>
                     <ButtonPageScroll label='View Our Labs' src='labs' />
                     <a href="https://www.ckc.ca/en" target="_blank" className={styles.img_ckc_container}>
-                        <Image src={CkcImg} className={styles.img_ckc} alt="The official CKC logo"/>
+                        <Image src={CkcImg} className={styles.img_ckc} alt="The official CKC logo" width={75} height={75}/>
                     </a>
 
                 </div>
 
                 <AutoScrollCarousel>
-                    <Image src={CaelPupImg} className={styles.img} alt="A Labrador from Labridge Farms"/>
-                    <Image src={LilyImg} className={styles.img} alt="A Labrador from Labridge Farms"/>
-                    <Image src={OliveImg} className={styles.img} alt="A Labrador from Labridge Farms"/>
-                    <Image src={CodaImg} className={styles.img} alt="A Labrador from Labridge Farms"/>
-                    <Image src={SophieImg} className={styles.img} alt="A Labrador from Labridge Farms"/>
-                    <Image src={SageImg} className={styles.img} alt="A Labrador from Labridge Farms"/>
+                    <Image src={CaelPupImg} className={styles.img} alt="A Labrador from Labridge Farms" width={175} height={175}/>
+                    <Image src={LilyImg} className={styles.img} alt="A Labrador from Labridge Farms" width={175} height={175}/>
+                    <Image src={OliveImg} className={styles.img} alt="A Labrador from Labridge Farms" width={175} height={175}/>
+                    <Image src={CodaImg} className={styles.img} alt="A Labrador from Labridge Farms" width={175} height={175}/>
+                    <Image src={SophieImg} className={styles.img} alt="A Labrador from Labridge Farms" width={175} height={175}/>
+                    <Image src={SageImg} className={styles.img} alt="A Labrador from Labridge Farms" width={175} height={175}/>
                 </AutoScrollCarousel>
             </div>
 

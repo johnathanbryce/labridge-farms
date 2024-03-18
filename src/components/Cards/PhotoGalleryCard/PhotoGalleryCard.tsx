@@ -19,7 +19,7 @@ export default function PhotoGalleryCard({img, name, description}: PhotoGalleryC
     }
   return (
     <div className={styles.photo_gallery_card}>
-        <Image src={img} className={styles.img} alt="an image of one of our labradors" loading='lazy'/>
+        <Image src={img} className={styles.img} alt="an image of one of our labradors" loading='lazy' width={300} height={300}/>
         <div className={styles.hover_details_container}>
             <div className={styles.flex_wrapper}>
                 {/* <p>{description}</p> */}

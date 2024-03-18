@@ -21,14 +21,14 @@ export default function OurAnimals() {
                 <h4> Beef</h4>
                 <div className={styles.product_content_wrapper}>
                     <p> We raise primarily Scottish Highland cattle and Highland / Hereford crosses.  Our beef is rich in nutrients, lean, well-marbled and incredibly flavourful!  Highland beef is nutritious with lower levels of total fat and cholesterol and higher levels of omega-3 fatty acids than other beef varieties.</p>
-                    <Image src={highlandImg} className={styles.product_img} alt="A picture of a Labrige Farm's Highland cow"/>
+                    <Image src={highlandImg} className={styles.product_img} alt="A picture of a Labrige Farm's Highland cow" width={300} height={300}/>
                 </div>
             </div> 
 
             <div className={styles.product_section}>
                 <h4> Pork</h4>
                 <div className={styles.product_content_wrapper}>
-                    <Image src={ourAnimalsBerkshire} className={styles.product_img} alt="A picture of a Labrige Farm's Berkshire pig"/>
+                    <Image src={ourAnimalsBerkshire} className={styles.product_img} alt="A picture of a Labrige Farm's Berkshire pig" width={300} height={300}/>
                     <p> We raise primarily Berkshire pigs for our pork.  The Berkshire pig is a heritage breed, and often called the “wagyu of pork” the meat is prized for its rich, complex flavour and succulent texture and marbling.  You will find the meat a darker red and sweeter, more flavourful meat than conventional commercial pork.</p>
                 </div>
             </div> 

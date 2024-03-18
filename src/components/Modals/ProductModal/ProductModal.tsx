@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './ProductModal.module.css'
+import Image from 'next/image'
 // External Libraries
-import { FaLocationDot } from 'react-icons/fa6'
 import {BsFillTelephoneFill} from 'react-icons/bs'
 import {MdEmail} from 'react-icons/md'
 import {AiFillCloseCircle} from 'react-icons/ai'
@@ -24,7 +24,7 @@ export default function ProductModal({onClose, name, description, image, src}: P
           <div className={styles.modal_background} onClick={onClose} />
           <div className={styles.modal_content}>
             <AiFillCloseCircle className={styles.close} onClick={onClose} />
-            <img src={image.src} className={styles.img} alt="" />
+            <Image src={image.src} className={styles.img} alt="" width={300} height={300} loading="lazy"/>
             <h6 className={styles.name}> {name} </h6>
             <p className={styles.description}> {description} </p>
             <p> To place your order, or find out more, send us an email or give us a call: </p>
