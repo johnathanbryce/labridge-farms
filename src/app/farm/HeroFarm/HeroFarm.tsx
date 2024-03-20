@@ -17,7 +17,9 @@ export default function HeroFarm() {
           src={heroPageFarmImg} 
           className={styles.background_image} 
           priority 
-          alt="Labridge Farm's background image"            
+          alt="Labridge Farm's background image" 
+          placeholder='blur'           
+          blurDataURL='data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAcCBQb/xAAnEAABAwQBBAAHAAAAAAAAAAABAgMEAAUSIREGExQxBzJBUWGR0f/EABcBAAMBAAAAAAAAAAAAAAAAAAACAwT/xAAfEQABBQABBQAAAAAAAAAAAAABAAIDBBETIlJxsdH/2gAMAwEAAhEDEQA/AN/P656bgOtNPR5anHflDaMx7A2Roe/rUZnxC6chNd5xpSWcsO6pXCQfyeKQDVymy7p4zay2wRmrFXBP3H7FWEh9FztD0OUrJt13gDjQx2P5WF1+y3Nd6+JGQQk9TU8bX15BukXybbHjPR8ijIFZ2DsUUgE2xm3pS1CXJSyoZ8d4p2fehRUTdsE62U54COGLtX//2Q=='
           height={500}
           width={500}
         />

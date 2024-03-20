@@ -19,6 +19,8 @@ export default function HeroLabs() {
           width={500} 
           height={500}
           priority 
+          placeholder='blur'
+          blurDataURL='data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEB//EACIQAAICAgIBBQEAAAAAAAAAAAECAwQAERIhMQUUIkFRkf/EABYBAQEBAAAAAAAAAAAAAAAAAAECBP/EABkRAAMBAQEAAAAAAAAAAAAAAAABAhIRMf/aAAwDAQACEQMRAD8Azyokt13Ssru6jkQB3rF2qdyO3JEYGUqpc78cf3fjKhauUKYNe06JyBKqNd/u8TN6pZn9L4ySyGCbaPDy+LfLff2fGZ5pPwrXURFiOnVg32D1hlEx95K085YyOdni2h/MMHcoNI//2Q=='
           alt="Labridge Farm's background image"
         />
         <HeaderLabs />
