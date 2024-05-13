@@ -8,12 +8,11 @@ import {TbVaccine} from 'react-icons/tb'
 import {MdMoneyOff} from 'react-icons/md'
 import {BiMicrochip} from 'react-icons/bi'
 
-
 export default function Litters() {
   return (
-    <LayoutContainerSections title='We welcomed a litter in December, and it is READY TO GO in mid-February 2024' bgColor='brown'>
+    <LayoutContainerSections title='Upcoming Litters' bgColor='brown'>
         <section className={styles.litters} id="litters">
-    
+            <h5> Fern and Spencer are expecting a litter in late May, 2024. Willow and Toby are expecting a litter in mid-June, 2024.</h5>
             <p> Our primary concern is producing hale and hearty dogs with outgoing, friendly temperaments that are intelligent, dependable, and eager to please.  </p>
             <div className={styles.grid_container}>
                 <div className={styles.content}>
