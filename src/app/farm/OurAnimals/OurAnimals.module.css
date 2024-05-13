@@ -32,6 +32,7 @@
 .product_img{
     width: 35rem;
     height: 25rem;
+
     object-fit: cover;
 }
 
