@@ -12,7 +12,7 @@ export default function TopContactInfoBar() {
   return (
       <section className={styles.top_contact_bar}>
         <div className={styles.contact_info}>
-            <a href={googleMapsLink} className={styles.contact_wrapper} target="_blank" rel="noopener noreferrer">
+            <a href={googleMapsLink} className={styles.contact_wrapper} target="_blank" rel="noopener noreferrer" aria-label="View location on Google Maps">
               <FaLocationDot className={styles.icon} />
               <p className={styles.top_text}> Glenmont, Nova Scotia   </p>
             </a>
@@ -23,7 +23,7 @@ export default function TopContactInfoBar() {
         </div>
 
         <div className={styles.socials_info}>
-          <Link className={styles.link} href="https://www.facebook.com/profile.php?id=100034992205922" target='_blank'>
+          <Link className={styles.link} href="https://www.facebook.com/profile.php?id=100034992205922" target='_blank' aria-label="Call Labridge Farms">
             <AiFillFacebook className={styles.icon_social} />
             <span className={styles.socials_text}> kennels </span>
           </Link>
@@ -39,5 +39,3 @@ export default function TopContactInfoBar() {
       </section>
   )
 }
-
-// https://www.instagram.com/labridge_kennels/
