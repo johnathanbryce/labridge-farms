@@ -20,13 +20,13 @@ export default function Footer() {
           Your one-stop destination for premium farm meats and exceptional Labrador retrievers.
           </p>
           <div className={styles.icons_container}>
-            <a href={googleMapsLink} className={styles.link} target="_blank" rel="noopener noreferrer">
+            <a href={googleMapsLink} className={styles.link} target="_blank" rel="noopener noreferrer" aria-label="View location on Google Maps">
               <FaLocationDot className={styles.icon} />
             </a>
-            <a href="tel:+9026799445" className={styles.link}>
+            <a href="tel:+9026799445" className={styles.link} aria-label="Call Labridge Farms" >
               <BsFillTelephoneFill className={styles.icon} />
             </a>
-            <a href="mailto:labridgekennels@hotmail.com" target="_blank" className={styles.link}>
+            <a href="mailto:labridgekennels@hotmail.com" target="_blank" className={styles.link} aria-label="Email Labridge Farms">
               <MdEmail className={styles.icon}/>
             </a>
           </div>
@@ -42,9 +42,9 @@ export default function Footer() {
 
         <div className={styles.footer_section}>
             <h5> Contact </h5>
-            <a href="mailto:labridgekennels@hotmail.com" target="_blank">labridgekennels@hotmail.com</a> 
-            <a href="tel:+9026799445" >(902) 679-9445</a>
-            <a href={googleMapsLink} target="_blank" rel="noopener noreferrer">
+            <a href="mailto:labridgekennels@hotmail.com" target="_blank" aria-label="Email Labridge Farms">labridgekennels@hotmail.com</a> 
+            <a href="tel:+9026799445" aria-label="Call Labridge Farms" >(902) 679-9445</a>
+            <a href={googleMapsLink} target="_blank" rel="noopener noreferrer" aria-label="View location on Google Maps">
                 Glenmont, Nova Scotia
             </a>
         </div>

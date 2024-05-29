@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './ProductItem.module.css'
+import Image from 'next/image'
 
 interface ProductItemProps {
     openModal: () => void,
@@ -15,7 +16,7 @@ export default function ProductItem({openModal, product, isMeat, isDog}: Product
     <div className={styles.product_wrapper} onClick={openModal}>
       {isMeat && (
         <figure>
-          <img src={image.src} className={styles.product_img} alt="Labridge Farm's meat"  />
+          <Image src={image.src} className={styles.product_img} alt="Labridge Farm's meat" width={200} height={200} />
           <figcaption> <span className={styles.product_title}> {name} </span> {/* (grass-fed & pastured raised) */}  </figcaption>
           <span className={styles.product_price}> {price} </span> 
         </figure>
@@ -23,7 +24,7 @@ export default function ProductItem({openModal, product, isMeat, isDog}: Product
 
       {isDog && (
         <figure>
-          <img src={image.src} className={styles.product_img} alt="Labridge Farm's meat"  />
+          <Image src={image.src} className={styles.product_img} alt="Labridge Farm's meat" width={200} height={200}  />
           <figcaption> <span className={styles.product_title}> {name} </span>   </figcaption>
           {/*{description} */}
           <span className={styles.product_price}> {price} </span> contact us for more details 
