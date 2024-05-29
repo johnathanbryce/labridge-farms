@@ -7,18 +7,20 @@ import LayoutContainerSections from '@/layouts/LayoutContainerSections/LayoutCon
 import HeaderMain from '@/components/Headers/HeaderMain/HeaderMain';
 import Button from '@/components/Buttons/Button/Button';
 // Internal Assets
-import heroPageImg from '../../../../public/assets/MainPagePicture.jpg';
+import heroPageImg from '../../../../public/assets/MainPagePicture.webp';
 
 export default function HeroMain() {
   return (
       <section className={styles.hero}>
         <Image 
+          priority={true}
           src={heroPageImg} 
           className={styles.background_image}  
           alt="Labridge Farm's main background image" 
-          height={500}
-          width={500}
-          priority
+          fill={true}
+          quality={70}
+          placeholder='blur'
+          
         />
         <HeaderMain />
         <LayoutContainerSections>
