@@ -13,13 +13,13 @@ export default function HeroMain() {
   return (
       <section className={styles.hero}>
         <Image 
-          priority={true}
+          priority
           src={heroPageImg} 
           className={styles.background_image}  
           alt="Labridge Farm's main background image" 
-          fill={true}
-          quality={65}
-          placeholder='blur'
+          width={750}
+          height={750}
+          quality={60}
         />
         <HeaderMain />
         <LayoutContainerSections>
