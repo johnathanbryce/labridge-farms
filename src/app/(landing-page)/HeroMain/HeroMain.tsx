@@ -18,7 +18,7 @@ export default function HeroMain() {
           className={styles.background_image}  
           alt="Labridge Farm's main background image" 
           fill={true}
-          quality={70}
+          quality={65}
           placeholder='blur'
           
         />
