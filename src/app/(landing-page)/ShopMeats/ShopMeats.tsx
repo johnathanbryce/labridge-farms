@@ -15,19 +15,19 @@ const meatProducts = [
     {
         image: beefPlaceholder,
         name: 'Beef',
-        price: '$6.00 / lb',
+        price: '$6.50 / lb',
         description: ' '
     },
     {
         image: porkPlaceholder,
         name: 'Pork',
-        price: '$5.00 / lb',
+        price: '$5.50 / lb',
         description: ' '
     },
     {
         image: groundBeefPlaceholder,
         name: 'Ground Beef',
-        price: '$6.00 / lb',
+        price: '$7.00 / lb',
         description: ' '
     }
 ]

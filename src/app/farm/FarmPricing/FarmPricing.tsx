@@ -18,7 +18,7 @@ export default function FarmPricing() {
             
             <div className={styles.pricing_about}>
                 <p> We sell our beef and pork by the side </p>
-                <p> We also sell lots of ground beef separately as well at $6.00/lb. </p>
+                <p> We also sell lots of ground beef separately as well at $7.00/lb. </p>
             </div>
             <div className={styles.product_container}>
                 <div className={styles.product}>
@@ -32,7 +32,7 @@ export default function FarmPricing() {
                         />
                     <div>
                         <h5> Beef </h5>
-                        <p> <span className={styles.bold}>$6.00/lb</span> dressed weight </p>
+                        <p> <span className={styles.bold}>$6.50/lb</span> dressed weight </p>
                     </div>
                     <div className={styles.meat_options}>
                         <h6> Sides of beef include: </h6>
@@ -56,7 +56,7 @@ export default function FarmPricing() {
                     />
                     <div>
                         <h5> Pork </h5>
-                        <p> <span className={styles.bold}>$5.00/lb</span> dressed weight </p>
+                        <p> <span className={styles.bold}>$5.50/lb</span> dressed weight </p>
                     </div>
                     <div className={styles.meat_options}>
                         <h6> Sides of pork include: </h6>
